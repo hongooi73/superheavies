@@ -11,24 +11,24 @@
         }
     ],
     "Description": {
-        "Cost": 25000000,
+        "Cost": 20000000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Omega",
-        "Id": "chassisdef_omega_SHP-X4",
-        "Name": "Omega",
-        "Details": "Although the concept of a superheavy 'Mech had already been explored by the Terran Hegemony centuries before, and later by Amaris forces, with the Matar as example, and the Clans polished that concept launching the Stone Rhino, it wasn't until the Word of Blake overcame the problems associated with such a massive design that the Omega became viable. Featuring an Endo Steel skeleton larger and bulkier than any seen before, oversized actuators and a new myomer system that involved both larger fiber bundles than standard and the use of hybrid myomers, the Blakists were able to overcome a number of flaws discovered by those who had explored the superheavy 'Mech concept in the past. The resulting internal structure was far larger than would be viable for any conventional BattleMech, but in the case of the Omega, resulted in a working superheavy design that stood half again as tall as the 100-ton King Crab, from which the designers had evidently taken a number of cues.",
+        "UIName": "Matar II",
+        "Id": "chassisdef_matarII_SAM-RS-MT2",
+        "Name": "Matar II",
+        "Details": "The Matar, commonly referred to as \"Amaris' Folly\", was an early attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar's leg actuators proved incapable of moving the massive machine and it never went into production. The Matar II is a 31st Century update on the original Matar design that uses advances in technology to correct its faults, adding 10 tons in the process.",
         "Icon": "uixTxrIcon_annihilator"
     },
-    "MovementCapDefID": "movedef_annihilator_ANH-1A",
+    "MovementCapDefID": "movedef_stonerhino_300",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_monster",
-    "PrefabIdentifier": "chrprfmech_monster-001",
-    "PrefabBase": "monster",
-    "Tonnage": 150,
-    "InitialTonnage": 39,
+    "HardpointDataDefID": "hardpointdatadef_stonerhino",
+    "PrefabIdentifier": "chrprfmech_stonerhinobase-001",
+    "PrefabBase": "stonerhino",
+    "Tonnage": 120,
+    "InitialTonnage": 29,
     "weightClass": "ASSAULT",
     "BattleValue": 10206000,
     "Heatsinks": 30,
@@ -73,10 +73,6 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -87,9 +83,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 250,
+            "MaxArmor": 200,
             "MaxRearArmor": -1,
-            "InternalStructure": 125
+            "InternalStructure": 100
         },
         {
             "Location": "LeftTorso",
@@ -99,30 +95,45 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 320,
-            "MaxRearArmor": 160,
-            "InternalStructure": 160
+            "MaxArmor": 250,
+            "MaxRearArmor": 125,
+            "InternalStructure": 125
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 450,
-            "MaxRearArmor": 225,
-            "InternalStructure": 225
+            "MaxArmor": 360,
+            "MaxRearArmor": 180,
+            "InternalStructure": 180
         },
         {
             "Location": "RightTorso",
@@ -132,27 +143,27 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 320,
-            "MaxRearArmor": 160,
-            "InternalStructure": 160
+            "MaxArmor": 250,
+            "MaxRearArmor": 125,
+            "InternalStructure": 125
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -164,33 +175,33 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 250,
+            "MaxArmor": 200,
             "MaxRearArmor": -1,
-            "InternalStructure": 125
+            "InternalStructure": 100
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 320,
+            "MaxArmor": 250,
             "MaxRearArmor": -1,
-            "InternalStructure": 160
+            "InternalStructure": 125
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 320,
+            "MaxArmor": 250,
             "MaxRearArmor": -1,
-            "InternalStructure": 160
+            "InternalStructure": 125
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 14.5,
+            "y": 14,
             "z": 0
         },
         {
@@ -207,35 +218,35 @@
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 19,
+            "y": 14,
             "z": 0
         },
         {
-            "x": 4.5,
-            "y": 16,
-            "z": -0.5
+            "x": 4,
+            "y": 15,
+            "z": -1
         },
         {
-            "x": -4.5,
-            "y": 16,
-            "z": -0.5
+            "x": -4,
+            "y": 15,
+            "z": -1
         },
         {
-            "x": 3,
+            "x": 3.5,
             "y": 5.5,
             "z": 1
         },
         {
-            "x": -3,
+            "x": -3.5,
             "y": 5.5,
             "z": 1
         }
     ],
-    "VariantName": "SHP-X4",
+    "VariantName": "SAM-RS-MT2",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Superheavy",
-    "YangsThoughts": "Although the concept of a superheavy 'Mech had already been explored by the Terran Hegemony centuries before, and later by Amaris forces, with the Matar as example, and the Clans polished that concept launching the Stone Rhino, it wasn't until the Word of Blake overcame the problems associated with such a massive design that the Omega became viable. Featuring an Endo Steel skeleton larger and bulkier than any seen before, oversized actuators and a new myomer system that involved both larger fiber bundles than standard and the use of hybrid myomers, the Blakists were able to overcome a number of flaws discovered by those who had explored the superheavy 'Mech concept in the past. The resulting internal structure was far larger than would be viable for any conventional BattleMech, but in the case of the Omega, resulted in a working superheavy design that stood half again as tall as the 100-ton King Crab, from which the designers had evidently taken a number of cues."
+    "YangsThoughts": "The Matar, commonly referred to as \"Amaris' Folly\", was an early attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar's leg actuators proved incapable of moving the massive machine and it never went into production. The Matar II is a 31st Century update on the original Matar design that uses advances in technology to correct its faults, adding 10 tons in the process."
 }

@@ -8,11 +8,11 @@
         "UIName": "Superheavy Chassis",
         "Id": "Gear_Superheavy_Chassis",
         "Name": "Superheavy Chassis",
-        "Details": "Internal structure and components for a superheavy BattleMech. Superheavies are extremely stable firing platforms due to their size, but also easy targets for enemies.",
+        "Details": "Internal structure and components for a superheavy BattleMech. Superheavies are extremely stable and rugged firing platforms due to their size. However, this \u2014 along with their lack of speed and agility \u2014 also makes them easy targets on the battlefield.",
         "Icon": "uixSvgIcon_special_Equipment"
     },
-    "BonusValueA": "- 30% Stb.Dmg. Taken, - 5 Recoil",
-    "BonusValueB": "- 1 Hit Def. Penalty",
+    "BonusValueA": "- 30% Stb.Dmg. Taken, - 5 Recoil, - 50% Crit.",
+    "BonusValueB": "- 1 Melee/Hit Def. Penalty",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -48,7 +48,7 @@
             "Description": {
                 "Id": "StatusEffect-Defense_StabilityAll-T3",
                 "Name": "INCOMING STABILITY DAMAGE DECREASED",
-                "Details": "Incoming stability damage reduced by [AMT].",
+                "Details": "Weapon recoil, incoming stability damage and critical chance reduced; +1 hit defense penalty.",
                 "Icon": "uixSvgIcon_equipment_Gyro"
             },
             "nature": "Buff",
@@ -126,34 +126,143 @@
         },
         {
             "durationData": {
-                "duration": -1
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
             },
             "targetingData": {
-                "effectTriggerType": "OnActivation",
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
                 "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
                 "showInTargetPreview": false,
                 "showInStatusPanel": false
-           },
+            },
             "effectType": "StatisticEffect",
             "Description": {
-                "Id": "TraitDefIndirectReduce5",
-                "Name": "Reduced Recoil",
-                "Details": "Ballistic recoil penalties reduced by 5",
-                "Icon": "uixSvgIcon_ability_mastertactician"
+                "Id": "StatusEffect-Chassis-RecoilPenaltyReduce",
+                "Name": "RECOIL PENALTIES REDUCED",
+                "Details": "Reduces recoil penalty.",
+                "Icon": "UixSvgIcon_specialEquip_System"
             },
+            "nature": "Buff",
             "statisticData": {
+                "appliesEachTick": false,
                 "effectsPersistAfterDestruction": false,
-                "targetCollection": "Weapon",
                 "statName": "RefireModifier",
                 "operation": "Int_Add",
                 "modValue": "-5",
-                "modType": "System.Int32"
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Ballistic",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "Description": {
+                "Details": "Incoming critical hit chance reduced by 50%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Chassis-CritResist",
+                "Name": "CRITICAL HIT REDUCTION"
+            },
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "0.5",
+                "operation": "Float_Multiply",
+                "statName": "CriticalHitChanceReceivedMultiplier",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
             }
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Attack_ToHitMeleePenalty",
+                "Name": "MELEE HIT CHANCE IMPROVED",
+                "Details": "Melee attacks attempted have their hit improved by [AMT].",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "AccuracyModifier",
+                "operation": "Float_Add",
+                "modValue": "1.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "Melee"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
         }
     ],
     "ComponentTags": {
         "items": [
-            "BLACKLISTED"
+            "BUILT-IN"
         ],
         "tagSetSourceFile": ""
     }

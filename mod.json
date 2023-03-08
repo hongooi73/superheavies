@@ -1,0 +1,15 @@
+{
+    "Name": "superheavies",
+    "Enabled": true,
+    "Description": "Superheavy battlemechs",	
+    "Version": "1.0.0",
+    "Author": "hongooi2",
+    "DependsOn": [
+        "Expanded Arsenal"
+    ],
+    "Manifest": [
+        { "Type": "UpgradeDef", "Path": "internals" },
+        { "Type": "ChassisDef", "Path": "chassis" },
+        { "Type": "MechDef", "Path": "mech" }
+    ]
+}
