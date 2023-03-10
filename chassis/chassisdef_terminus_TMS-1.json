@@ -248,7 +248,9 @@
     ],
     "VariantName": "TMS-1",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mr-resize-1.8"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Superheavy",
