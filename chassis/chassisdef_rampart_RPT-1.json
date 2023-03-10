@@ -16,19 +16,19 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Matar II",
-        "Id": "chassisdef_matarII_SAM-RS-MT2",
-        "Name": "Matar II",
-        "Details": "The Matar, commonly referred to as \"Amaris' Folly\", was an early attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar's leg actuators proved incapable of moving the massive machine and it never went into production. The Matar II is a 31st Century update on the original Matar design that uses advances in technology to correct its faults, adding 10 tons in the process.",
+        "UIName": "Rampart",
+        "Id": "chassisdef_rampart_RPT-1",
+        "Name": "Rampart",
+        "Details": "---",
         "Icon": "uixTxrIcon_annihilator"
     },
     "MovementCapDefID": "movedef_stonerhino_300",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_stonerhino",
-    "PrefabIdentifier": "chrprfmech_stonerhinobase-001",
-    "PrefabBase": "stonerhino",
-    "Tonnage": 120,
-    "InitialTonnage": 29,
+    "HardpointDataDefID": "hardpointdatadef_genericsh2",
+    "PrefabIdentifier": "chrprfmech_genericsh2base-001",
+    "PrefabBase": "genericsh2",
+    "Tonnage": 125,
+    "InitialTonnage": 33,
     "weightClass": "ASSAULT",
     "BattleValue": 10206000,
     "Heatsinks": 30,
@@ -50,13 +50,13 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 120,
+    "MeleeDamage": 130,
     "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
-    "DFADamage": 120,
+    "DFADamage": 125,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 120,
-    "DFAInstability": 70,
+    "DFASelfDamage": 125,
+    "DFAInstability": 75,
     "Locations": [
         {
             "Location": "Head",
@@ -73,7 +73,11 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -83,9 +87,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 200,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 100
+            "InternalStructure": 105
         },
         {
             "Location": "LeftTorso",
@@ -95,35 +99,19 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 250,
-            "MaxRearArmor": 125,
-            "InternalStructure": 125
+            "MaxArmor": 260,
+            "MaxRearArmor": 130,
+            "InternalStructure": 130
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -131,9 +119,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 360,
-            "MaxRearArmor": 180,
-            "InternalStructure": 180
+            "MaxArmor": 380,
+            "MaxRearArmor": 190,
+            "InternalStructure": 190
         },
         {
             "Location": "RightTorso",
@@ -143,29 +131,25 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 250,
-            "MaxRearArmor": 125,
-            "InternalStructure": 125
+            "MaxArmor": 260,
+            "MaxRearArmor": 130,
+            "InternalStructure": 130
         },
         {
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -175,27 +159,27 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 200,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 100
+            "InternalStructure": 105
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 250,
+            "MaxArmor": 260,
             "MaxRearArmor": -1,
-            "InternalStructure": 125
+            "InternalStructure": 130
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 250,
+            "MaxArmor": 260,
             "MaxRearArmor": -1,
-            "InternalStructure": 125
+            "InternalStructure": 130
         }
     ],
     "LOSSourcePositions": [
@@ -242,11 +226,11 @@
             "z": 1
         }
     ],
-    "VariantName": "SAM-RS-MT2",
+    "VariantName": "RPT-1",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Superheavy",
-    "YangsThoughts": "The Matar, commonly referred to as \"Amaris' Folly\", was an early attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar's leg actuators proved incapable of moving the massive machine and it never went into production. The Matar II is a 31st Century update on the original Matar design that uses advances in technology to correct its faults, adding 10 tons in the process."
+    "YangsThoughts": "---"
 }
