@@ -16,22 +16,22 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Longbow II",
-        "Id": "chassisdef_longbowII_SH-LGB-9",
-        "Name": "Longbow II",
-        "Details": "A rebuild of the venerable LGB-7Q Longbow that increases its weight by more than 40 per cent, the Longbow II is a veritable walking arsenal. The original LRM launch tubes have been stripped out and replaced by more modern MMLs, along with a pair of Large X-Pulse Lasers to provide direct fire support. The Longbow II also mounts enough heat dissipation capacity to fire all its weapons without significantly heating up. This superheavy 'Mech was first produced by the Free Worlds League, but the design has since spread to most parts of the Inner Sphere, whether by capture or trade.",
+        "UIName": "Matar II",
+        "Id": "chassisdef_matarIIs_SAM-RS-MTS",
+        "Name": "Matar II",
+        "Details": "The Matar, commonly referred to as \"Amaris' Folly\", was an early attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar's leg actuators proved incapable of moving the massive machine and it never went into production. The Matar II is a 31st Century update on the original Matar design that uses advances in technology to correct its faults, adding 10 tons in the process.",
         "Icon": "uixTxrIcon_annihilator"
     },
-    "MovementCapDefID": "movedef_longbow_LGB-7Q",
+    "MovementCapDefID": "movedef_stonerhino_300",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_longbow",
-    "PrefabIdentifier": "chrprfmech_longbowbase-001",
-    "PrefabBase": "longbow",
+    "HardpointDataDefID": "hardpointdatadef_stonerhino",
+    "PrefabIdentifier": "chrprfmech_stonerhinobase-001",
+    "PrefabBase": "stonerhino",
     "Tonnage": 120,
-    "InitialTonnage": 32,
+    "InitialTonnage": 29,
     "weightClass": "ASSAULT",
     "BattleValue": 10206000,
-    "Heatsinks": 30,
+    "Heatsinks": 45,
     "TopSpeed": 105,
     "TurnRadius": 290,
     "MaxJumpjets": 0,
@@ -73,11 +73,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -95,7 +91,11 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -117,6 +117,14 @@
             "Location": "CenterTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
@@ -135,7 +143,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -157,11 +165,7 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -238,7 +242,7 @@
             "z": 1
         }
     ],
-    "VariantName": "SH-LGB-9",
+    "VariantName": "SAM-RS-MTS",
     "ChassisTags": {
         "items": [
             "mr-resize-1.8"
@@ -246,5 +250,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Superheavy",
-    "YangsThoughts": "A rebuild of the venerable LGB-7Q Longbow that increases its weight by more than 40 per cent, the Longbow II is a veritable walking arsenal. The original LRM launch tubes have been stripped out and replaced by more modern MMLs, along with a pair of Large X-Pulse Lasers to provide direct fire support. The Longbow II also mounts enough heat dissipation capacity to fire all its weapons without significantly heating up. This superheavy 'Mech was first produced by the Free Worlds League, but the design has since spread to most parts of the Inner Sphere, whether by capture or trade."
+    "YangsThoughts": "The Matar, commonly referred to as \"Amaris' Folly\", was an early attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar's leg actuators proved incapable of moving the massive machine and it never went into production. The Matar II is a 31st Century update on the original Matar design that uses advances in technology to correct its faults, adding 10 tons in the process."
 }
