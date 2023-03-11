@@ -12,7 +12,7 @@
     "badFaithStatementOverride": "",
     "goodFaithStatementOverride": "",
     "shortDescription": "We've got a developing situation that requires your expertise, Commander. We've recently detected a major engine signature on the planet, heavier even than an assault-class 'Mech. We can't have a {TEAM_TAR.FactionDef.Demonym} 'Mech that big wandering around loose, and your company is the only one that handle it. The interesting part is that we've also detected <i>another<\/i> superheavy power-up, and it's a different 'Mech entirely, and it's closing with the target. It's possible you can just swoop in and pick up the pieces. We're prepared to offer generous salvage terms.",
-    "longDescription": "Superheavy 'Mechs are exceedingly rare and a nightmare to fight, Commander. It's a good thing they'll be shooting at each other as well as us.",
+    "longDescription": "Superheavy 'Mechs are incredibly rare and a nightmare to fight, Commander. We'll have to make sure they shoot at each other instead of us.",
     "salvagePotential": 20,
     "requirementList": [
         {
