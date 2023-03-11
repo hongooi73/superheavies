@@ -55,7 +55,7 @@
         {
             "Location": "CenterTorso",
             "CurrentArmor": 255,
-            "CurrentRearArmor": 50,
+            "CurrentRearArmor": 55,
             "CurrentInternalStructure": 180,
             "AssignedArmor": 255,
             "AssignedRearArmor": 55,

@@ -55,7 +55,7 @@
             "Location": "CenterTorso",
             "CurrentArmor": 370,
             "CurrentRearArmor": 80,
-            "CurrentInternalStructure": 230,
+            "CurrentInternalStructure": 225,
             "AssignedArmor": 370,
             "AssignedRearArmor": 80,
             "DamageLevel": "Functional"
