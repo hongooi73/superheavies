@@ -241,6 +241,7 @@
     "VariantName": "SH-LGB-S",
     "ChassisTags": {
         "items": [
+            "elite_arsenal_s_tier",
             "mr-resize-1.8"
         ],
         "tagSetSourceFile": ""

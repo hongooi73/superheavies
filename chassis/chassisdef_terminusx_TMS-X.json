@@ -249,6 +249,7 @@
     "VariantName": "TMS-X",
     "ChassisTags": {
         "items": [
+            "elite_arsenal",
             "mr-resize-1.8"
         ],
         "tagSetSourceFile": ""
