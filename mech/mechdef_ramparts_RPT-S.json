@@ -19,7 +19,7 @@
         "UIName": "Rampart S",
         "Id": "mechdef_ramparts_RPT-S",
         "Name": "Rampart S",
-        "Details": "---",
+        "Details": "The Rampart is Clan Diamond Shark's first attempt to create a superheavy BattleMech. Its design is focused on long-ranged fire support, with paired HAG/30s and ER PPCs providing heavy direct fire and ATM launchers for secondary indirect fire. A C3i computer improves tactical awareness, mitigating the ponderous lack of maneuverability of the superheavy chassis, while an advanced ECM suite jams enemy targeting systems. Its main weakness is a complete lack of short-range and antipersonnel weaponry, making it dependent on lancemates to keep it from being swarmed.",
         "Icon": "uixTxrIcon_annihilator"
     },
     "simGameMechPartCost": 714821,
@@ -45,29 +45,29 @@
         },
         {
             "Location": "LeftTorso",
-            "CurrentArmor": 235,
-            "CurrentRearArmor": 45,
+            "CurrentArmor": 255,
+            "CurrentRearArmor": 55,
             "CurrentInternalStructure": 130,
-            "AssignedArmor": 235,
-            "AssignedRearArmor": 45,
+            "AssignedArmor": 255,
+            "AssignedRearArmor": 55,
             "DamageLevel": "Functional"
         },
         {
             "Location": "CenterTorso",
-            "CurrentArmor": 290,
-            "CurrentRearArmor": 60,
+            "CurrentArmor": 315,
+            "CurrentRearArmor": 65,
             "CurrentInternalStructure": 190,
-            "AssignedArmor": 290,
-            "AssignedRearArmor": 60,
+            "AssignedArmor": 315,
+            "AssignedRearArmor": 65,
             "DamageLevel": "Functional"
         },
         {
             "Location": "RightTorso",
-            "CurrentArmor": 235,
-            "CurrentRearArmor": 45,
+            "CurrentArmor": 255,
+            "CurrentRearArmor": 55,
             "CurrentInternalStructure": 130,
-            "AssignedArmor": 235,
-            "AssignedRearArmor": 45,
+            "AssignedArmor": 255,
+            "AssignedRearArmor": 55,
             "DamageLevel": "Functional"
         },
         {
@@ -81,27 +81,38 @@
         },
         {
             "Location": "LeftLeg",
-            "CurrentArmor": 215,
+            "CurrentArmor": 250,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 130,
-            "AssignedArmor": 215,
+            "AssignedArmor": 250,
             "AssignedRearArmor": -1,
             "DamageLevel": "Functional"
         },
         {
             "Location": "RightLeg",
-            "CurrentArmor": 215,
+            "CurrentArmor": 250,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 130,
-            "AssignedArmor": 215,
+            "AssignedArmor": 250,
             "AssignedRearArmor": -1,
             "DamageLevel": "Functional"
         }
     ],
     "inventory": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_3",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -109,7 +120,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_LRM_ATM6",
+            "ComponentDefID": "Weapon_LRM_ATM6_CLAN_2",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -117,7 +128,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_3",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -125,7 +136,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_LRM_ATM6",
+            "ComponentDefID": "Weapon_LRM_ATM6_CLAN_2",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -133,7 +144,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_HyperGauss_HAG30",
+            "ComponentDefID": "Weapon_HyperGauss_HAG30_2",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -141,7 +152,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_HyperGauss_HAG30",
+            "ComponentDefID": "Weapon_HyperGauss_HAG30_2",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -197,7 +208,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-II",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -206,7 +217,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-II",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -215,7 +226,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -224,7 +235,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -233,25 +244,16 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefID": "Gear_Guardian_ECM_CLAN_2",
             "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional",
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_C3i_Computer",
+            "ComponentDefID": "Gear_C3i_Computer_2",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -260,7 +262,16 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Guardian_ECM_CLAN",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN_3",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Heavy_Defensive_Suite_1",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

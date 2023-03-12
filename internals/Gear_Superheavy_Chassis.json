@@ -12,7 +12,7 @@
         "Icon": "uixSvgIcon_special_Equipment"
     },
     "BonusValueA": "- 30% Stb.Dmg. Taken, - 5 Recoil, - 50% Crit.",
-    "BonusValueB": "- 1 Melee/Hit Def. Penalty",
+    "BonusValueB": "- 1 Melee/Hit Def./Init. Penalty",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -48,7 +48,7 @@
             "Description": {
                 "Id": "StatusEffect-Defense_StabilityAll-T3",
                 "Name": "INCOMING STABILITY DAMAGE DECREASED",
-                "Details": "Weapon recoil, incoming stability damage and critical chance reduced; +1 hit defense penalty.",
+                "Details": "Weapon recoil, incoming stability damage and critical chance reduced; +1 hit defense, melee and initiative penalty.",
                 "Icon": "uixSvgIcon_equipment_Gyro"
             },
             "nature": "Buff",
@@ -251,6 +251,57 @@
                 "targetWeaponType": "NotSet",
                 "targetAmmoCategory": "NotSet",
                 "targetWeaponSubType": "Melee"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-InitPenalty",
+                "Name": "UNIT INITIATIVE DECREASED",
+                "Details": "Provides a -1 penalty to Unit Initiative.",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "BaseInitiative",
+                "operation": "Int_Add",
+                "modValue": "1",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
             },
             "tagData": null,
             "floatieData": null,

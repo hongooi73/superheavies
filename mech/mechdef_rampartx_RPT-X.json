@@ -19,7 +19,7 @@
         "UIName": "Rampart X",
         "Id": "mechdef_rampartx_RPT-X",
         "Name": "Rampart X",
-        "Details": "---",
+        "Details": "The Rampart is Clan Diamond Shark's first attempt to create a superheavy BattleMech. Its design is focused on long-ranged fire support, with paired HAG/30s and ER PPCs providing heavy direct fire and ATM launchers for secondary indirect fire. A C3i computer improves tactical awareness, mitigating the ponderous lack of maneuverability of the superheavy chassis, while an advanced ECM suite jams enemy targeting systems. Its main weakness is a complete lack of short-range and antipersonnel weaponry, making it dependent on lancemates to keep it from being swarmed.",
         "Icon": "uixTxrIcon_annihilator"
     },
     "simGameMechPartCost": 714821,
@@ -100,8 +100,19 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_1",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -109,7 +120,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_LRM_ATM6",
+            "ComponentDefID": "Weapon_LRM_ATM6_CLAN_1",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -117,7 +128,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_1",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -125,7 +136,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_LRM_ATM6",
+            "ComponentDefID": "Weapon_LRM_ATM6_CLAN_1",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -133,7 +144,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_HyperGauss_HAG30",
+            "ComponentDefID": "Weapon_HyperGauss_HAG30_1",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -141,7 +152,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_HyperGauss_HAG30",
+            "ComponentDefID": "Weapon_HyperGauss_HAG30_1",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -215,7 +226,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -224,7 +235,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -233,25 +244,16 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefID": "Gear_Guardian_ECM_CLAN_1",
             "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional",
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_C3i_Computer",
+            "ComponentDefID": "Gear_C3i_Computer_1",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -260,7 +262,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Guardian_ECM_CLAN",
+            "ComponentDefID": "Gear_Heavy_Defensive_Suite",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
