@@ -20,7 +20,7 @@
         "Id": "chassisdef_rampart_RPT-X",
         "Name": "Rampart",
         "Details": "The Rampart is Clan Diamond Shark's first attempt to create a superheavy BattleMech. Its design is focused on long-ranged fire support, with paired HAG/30s and ER PPCs providing heavy direct fire and ATM launchers for secondary indirect fire. A C3i computer improves tactical awareness, mitigating the ponderous lack of maneuverability of the superheavy chassis, while an advanced ECM suite jams enemy targeting systems. Its main weakness is a complete lack of short-range and antipersonnel weaponry, making it dependent on lancemates to keep it from being swarmed.",
-        "Icon": "uixTxrIcon_annihilator"
+        "Icon": "uixTxrIcon_superheavy"
     },
     "MovementCapDefID": "movedef_stonerhino_300",
     "PathingCapDefID": "pathingdef_assault",

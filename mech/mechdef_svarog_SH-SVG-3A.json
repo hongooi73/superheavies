@@ -19,7 +19,7 @@
         "Id": "mechdef_svarog_SH-SVG-3A",
         "Name": "Svarog",
         "Details": "The Svarog, also known as the King Crab II, is named after the ancient Slavic god of fire. Unlike most other superheavy designs, it is intended to be a breakthrough 'Mech: it acts as the spearhead of an advance, engaging points of resistance and destroying them with massive firepower from its paired RAC/5s and binary lasers. Multiple flamers allow it to deal with anti-'Mech infantry, and MASC makes it surprisingly nimble for such a huge beast. The Svarog has proved to be quite successful; even if an overconfident MechWarrior outruns their support, the 'Mech's sheer firepower and protection mean it can survive against heavy odds until help arrives.",
-        "Icon": "uixTxrIcon_annihilator"
+        "Icon": "uixTxrIcon_superheavy"
     },
     "simGameMechPartCost": 714821,
     "Version": 1,

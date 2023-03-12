@@ -20,7 +20,7 @@
         "Id": "mechdef_matarIIx_SAM-RS-MTX",
         "Name": "Matar II X",
         "Details": "The Matar, commonly referred to as \"Amaris' Folly\", was an early attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar's leg actuators proved incapable of moving the massive machine and it never went into production. The Matar II is a 31st Century update on the original Matar design that uses advances in technology to correct its faults, adding 10 tons in the process.",
-        "Icon": "uixTxrIcon_annihilator"
+        "Icon": "uixTxrIcon_superheavy"
     },
     "simGameMechPartCost": 714821,
     "Version": 1,

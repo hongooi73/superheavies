@@ -12,6 +12,7 @@
         { "Type": "ChassisDef", "Path": "chassis" },
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "LanceDef", "Path": "lance" },
-        { "Type": "ContractOverride", "Path": "contracts" }
+        { "Type": "ContractOverride", "Path": "contracts" },
+        { "Type": "Sprite", "Path": "portraits" }
     ]
 }

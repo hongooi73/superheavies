@@ -20,7 +20,7 @@
         "Id": "mechdef_omegax_SHP-XX",
         "Name": "Omega X",
         "Details": "Although the concept of a superheavy 'Mech had already been explored by the Terran Hegemony centuries before, and later by Amaris forces, with the Matar as example, and the Clans polished that concept launching the Stone Rhino, it wasn't until the Word of Blake overcame the problems associated with such a massive design that the Omega became viable. Featuring an Endo Steel skeleton larger and bulkier than any seen before, oversized actuators and a new myomer system that involved both larger fiber bundles than standard and the use of hybrid myomers, the Blakists were able to overcome a number of flaws discovered by those who had explored the superheavy 'Mech concept in the past. The resulting internal structure was far larger than would be viable for any conventional BattleMech, but in the case of the Omega, resulted in a working superheavy design that stood half again as tall as the 100-ton King Crab, from which the designers had evidently taken a number of cues.",
-        "Icon": "uixTxrIcon_annihilator"
+        "Icon": "uixTxrIcon_superheavy"
     },
     "simGameMechPartCost": 714821,
     "Version": 1,

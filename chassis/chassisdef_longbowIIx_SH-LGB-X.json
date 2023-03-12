@@ -20,7 +20,7 @@
         "Id": "chassisdef_longbowIIx_SH-LGB-X",
         "Name": "Longbow II",
         "Details": "A rebuild of the venerable LGB-7Q Longbow that increases its weight by more than 40 per cent, the Longbow II is a veritable walking arsenal. The original LRM launch tubes have been stripped out and replaced by more modern MMLs, along with a pair of Large X-Pulse Lasers to provide direct fire support. The Longbow II also mounts enough heat dissipation capacity to fire all its weapons without significantly heating up. This superheavy 'Mech was first produced by the Free Worlds League, but the design has since spread to most parts of the Inner Sphere, whether by capture or trade.",
-        "Icon": "uixTxrIcon_annihilator"
+        "Icon": "uixTxrIcon_superheavy"
     },
     "MovementCapDefID": "movedef_longbow_LGB-7Q",
     "PathingCapDefID": "pathingdef_assault",
