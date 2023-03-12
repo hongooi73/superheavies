@@ -19,7 +19,7 @@
         "UIName": "Terminus",
         "Id": "chassisdef_terminus_TMS-1",
         "Name": "Terminus",
-        "Details": "Clan Diamond Shark followed up the Rampart, its first superheavy BattleMech, with the Terminus. Learning their lessons from the earlier design, the clan's designers gave the Terminus an all-energy-weapon loadout: this removes the risk of ammunition explosions, and is also better at dealing with light, agile opposition. The 'Mech's electronics remain top-notch, with the centerpiece being a Nova CEWS sourced from the clan's allies. In addition, the Terminus addresses a key disadvantage of superheavy 'Mechs by adding an engine supercharger, giving it a top speed equal to many mediums and heavies.",
+        "Details": "Clan Diamond Shark followed up the Rampart, its first superheavy BattleMech, with the Terminus. Learning their lessons from the earlier design, the clan's designers gave the Terminus an all-energy-weapon loadout: this removes the risk of ammunition explosions, and is also better at dealing with light, agile opposition. The 'Mech's electronics remain top-notch, with the centerpiece being a Nova CEWS sourced from the clan's allies. In addition, the Terminus addresses a key disadvantage of superheavy 'Mechs by fitting an engine supercharger, giving it a top speed equal to many mediums and heavies.",
         "Icon": "uixTxrIcon_annihilator"
     },
     "MovementCapDefID": "movedef_stonerhino_300",
@@ -254,5 +254,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Superheavy",
-    "YangsThoughts": "Clan Diamond Shark followed up the Rampart, its first superheavy BattleMech, with the Terminus. Learning their lessons from the earlier design, the clan's designers gave the Terminus an all-energy-weapon loadout: this removes the risk of ammunition explosions, and is also better at dealing with light, agile opposition. The 'Mech's electronics remain top-notch, with the centerpiece being a Nova CEWS sourced from the clan's allies. In addition, the Terminus addresses a key disadvantage of superheavy 'Mechs by adding an engine supercharger, giving it a top speed equal to many mediums and heavies."
+    "YangsThoughts": "Clan Diamond Shark followed up the Rampart, its first superheavy BattleMech, with the Terminus. Learning their lessons from the earlier design, the clan's designers gave the Terminus an all-energy-weapon loadout: this removes the risk of ammunition explosions, and is also better at dealing with light, agile opposition. The 'Mech's electronics remain top-notch, with the centerpiece being a Nova CEWS sourced from the clan's allies. In addition, the Terminus addresses a key disadvantage of superheavy 'Mechs by fitting an engine supercharger, giving it a top speed equal to many mediums and heavies."
 }
