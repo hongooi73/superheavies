@@ -11,9 +11,9 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Commander, {TEAM_EMP.FactionDef.Name} is tracking an extremely heavy 'Mech with {TEAM_TAR.FactionDef.Demonym} heraldry. This provocation is almost certainly bait for a trap; we'd like you to spring this trap. Engage the heavy 'Mech, intercept the forces {TEAM_TAR.FactionDef.Name} sends to defend it, and destroy all of them.",
-    "longDescription": "I'm not comfortable about this mission, Commander. We've dealt with plenty of extremely heavy 'Mechs before, but some of the chatter I've picked up indicates this one is truly exceptional.",
-    "salvagePotential": 15,
+    "shortDescription": "Commander, {TEAM_EMP.FactionDef.Name} is tracking a superheavy BattleMech with {TEAM_TAR.FactionDef.Demonym} heraldry. This provocation is almost certainly bait for a trap; we'd like you to spring this trap. Engage the superheavy 'Mech, intercept the forces {TEAM_TAR.FactionDef.Name} sends to defend it, and destroy all of them.",
+    "longDescription": "I'm not comfortable about this mission, Commander. We've dealt with extremely heavy 'Mechs before, but this one beats them all.",
+    "salvagePotential": 16,
     "requirementList": [
         {
             "Scope": "StarSystem",
@@ -773,7 +773,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "elite_arsenal"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"

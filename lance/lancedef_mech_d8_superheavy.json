@@ -44,7 +44,8 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d8"
+                    "pilot_npc_d8",
+                    "elite_forces"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
@@ -72,7 +73,8 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d8"
+                    "pilot_npc_d8",
+                    "elite_forces"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
@@ -107,7 +109,9 @@
                 "tagSetSourceFile": "Tags/PilotTags"
             },
             "excludedPilotTagSet": {
-                "items": null,
+                "items": [
+                    "elite_forces"
+                ],
                 "tagSetSourceFile": "Tags/PilotTags"
             }
         },
@@ -137,7 +141,9 @@
                 "tagSetSourceFile": "Tags/PilotTags"
             },
             "excludedPilotTagSet": {
-                "items": null,
+                "items": [
+                    "elite_forces"
+                ],
                 "tagSetSourceFile": "Tags/PilotTags"
             }
         }

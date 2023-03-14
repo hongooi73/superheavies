@@ -1,6 +1,6 @@
 {
-    "ID": "DestroyBase_FieldRepair_SH",
-    "contractName": "Field Repair",
+    "ID": "DestroyBase_FieldRefit_SH",
+    "contractName": "Field Refit",
     "contractDisplayStyle": "BaseCampaignNormal",
     "difficulty": 8,
     "difficultyUIModifier": 0,
@@ -197,7 +197,7 @@
             "objective": {
                 "EncounterObjectGuid": "ea4504c3-8dcc-4049-bff2-784c423f0aa8"
             },
-            "title": "Destroy Enemy Orions",
+            "title": "Destroy Enemy Reinforcements",
             "description": "The objective to eliminate enemy reinforcements who attack.",
             "isPrimary": false,
             "OnSuccessResults": [
@@ -358,7 +358,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "This doesn't look right. One sec... everything's powered up but I don't think it's actually a factory. There's definitely 'Mech-related activity going on though.",
+                    "words": "One sec.... Everything's powered up but it doesn't look like a normal production line. There's 'Mech-related activity going on for sure, though.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -374,7 +374,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "One way or another, {TEAM_EMP.FactionDef.Name} is paying us to destroy those buildings. When you're done, Meyer will be on station to pick you up from this LZ.",
+                    "words": "In any case, {TEAM_EMP.FactionDef.Name} is paying us to destroy those buildings. When you're done, Meyer will be on station to pick you up from this LZ.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -399,7 +399,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "It looks like there was only one Omega, and they were using the facility to repair it. Damn, I hate to see all that hardware turned to scrap. Imagine if we had a couple of those in our MechBay.",
+                    "words": "It looks they were using the factory to rebuild dead and damaged 'Mechs, and those two were the latest off the line. Damn, I hate to see all that hardware turned to scrap. Imagine if we had a couple of superheavies in our MechBay.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -440,7 +440,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Dammit. I just hope they don't have a production line of those somewhere. Let's debrief back in orbit, Commander.",
+                    "words": "Dammit. I just hope they're not producing more of those somewhere. Let's debrief back in orbit, Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -481,7 +481,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "It's... holy shit. Boss, it's a superheavy 'Mech, of the Omega variety. Where the hell did they get that?",
+                    "words": "It's... holy shit. Boss, There's two bandits heading your way, and one of them is a superheavy 'Mech. Where the hell did they find that?",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1319,10 +1319,10 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_omega_SHP-X4",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-
+                                "unit_superheavy"
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -1338,7 +1338,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilot_d10_lancer",
+                        "pilotDefId": "pilotDef_InheritLance",
                         "pilotTagSet": {
                             "items": [
 
@@ -1362,10 +1362,11 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_None",
+                        "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-
+                                "unit_mech",
+                                "unit_assault"
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },

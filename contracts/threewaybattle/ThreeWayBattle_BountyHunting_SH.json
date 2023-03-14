@@ -2,7 +2,7 @@
     "ID": "ThreeWayBattle_BountyHunting_SH",
     "contractName": "Bounty Hunted",
     "contractDisplayStyle": "BaseCampaignNormal",
-    "difficulty": 9,
+    "difficulty": 8,
     "difficultyUIModifier": 0,
     "weight": 1,
     "scope": "STANDARD",
@@ -3394,7 +3394,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_convoy",
                         "lance_type_turret",
                         "elite_arsenal"
@@ -3600,7 +3599,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"
@@ -3817,7 +3815,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "elite_arsenal"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
@@ -4021,7 +4018,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"
@@ -4227,7 +4223,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"
@@ -4433,7 +4428,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"
@@ -4639,7 +4633,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"
@@ -4856,7 +4849,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"
@@ -5062,7 +5054,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"
@@ -5268,7 +5259,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"
@@ -5474,7 +5464,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"
@@ -5704,7 +5693,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "elite_arsenal"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
@@ -5909,7 +5897,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_convoy",
                         "lance_type_turret",
                         "elite_arsenal"
@@ -6126,7 +6113,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"
@@ -6332,7 +6318,6 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_superheavy",
                         "lance_type_turret",
                         "lance_type_convoy",
                         "elite_arsenal"

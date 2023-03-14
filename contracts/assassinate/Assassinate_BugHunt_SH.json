@@ -2,7 +2,7 @@
     "ID": "Assassinate_BugHunt_SH",
     "contractName": "Giant Bug Hunt",
     "contractDisplayStyle": "BaseCampaignNormal",
-    "difficulty": 10,
+    "difficulty": 8,
     "difficultyUIModifier": 0,
     "weight": 1,
     "scope": "STANDARD",
@@ -12,7 +12,7 @@
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
     "shortDescription": "Commander, we need an immediate deployment. We've been in pursuit of a {TEAM_TAR.FactionDef.Demonym} terrorist for months, and we've finally tracked them to this planet. They've gone to ground but earlier today one of our orbital units spotted them moving on the surface. This is the first verified sighting we've had of the target, and we want you to bring them down immediately, before they're able to slip away again. There hasn't been time to do a full survey of the AO, so you'll be going in blind.",
-    "longDescription": "Our employer may have no terrain intel, but according to one of my planetside sources, the target may be in an exceptionally heavy BattleMech. Be prepared to meet anything down there.",
+    "longDescription": "Our employer may have no terrain intel, but according to one of my planetside sources, the target is piloting an exceptionally heavy BattleMech. Be prepared to meet anything down there.",
     "salvagePotential": 28,
     "requirementList": [
         {
@@ -1308,7 +1308,7 @@
                         "pilotDefId": "pilotDef_InheritLance",
                         "pilotTagSet": {
                             "items": [
-
+                                "elite_forces"
                             ],
                             "tagSetSourceFile": "tags/PilotTags"
                         },
