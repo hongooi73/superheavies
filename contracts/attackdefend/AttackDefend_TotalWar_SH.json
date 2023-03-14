@@ -2472,7 +2472,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "That's enough, Meyer. Remember, commander, you have to get them shooting at the {TEAM_TAR.FactionDef.Demonym} force.",
+                    "words": "That's enough, Meyer. Remember, Commander, you have to get them shooting at the {TEAM_TAR.FactionDef.Demonym} force.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,

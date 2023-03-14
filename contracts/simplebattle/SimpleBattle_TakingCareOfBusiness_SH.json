@@ -1,9 +1,9 @@
 {
-    "ID": "SimpleBattle_TakeTheBait_Hard",
-    "contractName": "Superheavy Lure",
+    "ID": "SimpleBattle_TakingCareOfBusiness_SH",
+    "contractName": "Taking Care of Business",
     "contractDisplayStyle": "BaseCampaignNormal",
     "difficulty": 8,
-    "difficultyUIModifier": 1,
+    "difficultyUIModifier": 0,
     "weight": 1,
     "scope": "STANDARD",
     "finalDifficulty": 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Commander, {TEAM_EMP.FactionDef.Name} is tracking a superheavy BattleMech with {TEAM_TAR.FactionDef.Demonym} heraldry. This provocation is almost certainly bait for a trap; we'd like you to spring this trap. Engage the superheavy 'Mech, intercept the forces {TEAM_TAR.FactionDef.Name} sends to defend it, and destroy all of them.",
-    "longDescription": "I'm not comfortable about this mission, Commander. We've dealt with extremely heavy 'Mechs before, but this one beats them all.",
+    "shortDescription": "We're currently trying to engage in long-term operations in this system, which runs counter to {TEAM_TAR.FactionDef.Demonym} interests. They've hired a well-regarded mercenary outfit to engage {TEAM_EMP.FactionDef.Name} operatives on the planet's surface, and the mercenaries have sent a single, extremely heavy lance including at least one superheavy BattleMech. Our local units aren't equipped enough to deal with this class of opposition, which is why you're needed.",
+    "longDescription": "I don't like fighting other mercenaries, especially ones that have access to superheavy 'Mechs, but that's the nature of the business. Bring some serious firepower for this mission, commander.",
     "salvagePotential": 16,
     "requirementList": [
         {
@@ -25,19 +25,13 @@
             },
             "ExclusionTags": {
                 "items": [
-
+                    "planet_other_empty"
                 ],
                 "tagSetSourceFile": ""
             },
             "RequirementComparisons": [
                 {
-                    "obj": "Employer.AuriganRestoration",
-                    "op": "Equal",
-                    "val": 0,
-                    "valueConstant": null
-                },
-                {
-                    "obj": "Employer.AuriganPirates",
+                    "obj": "Employer.IsOwner",
                     "op": "Equal",
                     "val": 0,
                     "valueConstant": null
@@ -75,7 +69,7 @@
                 "EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
             },
             "title": "Destroy Enemy Units",
-            "description": "",
+            "description": "Find, engage and destroy the enemy Mercs.",
             "isPrimary": true,
             "forPlayer": "Player1",
             "objectiveGuids": [
@@ -89,7 +83,7 @@
             "objective": {
                 "EncounterObjectGuid": "d111d351-a666-4852-8e4b-a300d0cccc2d"
             },
-            "title": "Destroy Enemy Units",
+            "title": "Destroy Enemy Lance",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -109,7 +103,39 @@
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
+                {
+                    "Scope": "Company",
+                    "Requirements": null,
+                    "AddedTags": {
+                        "items": [
 
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [
+
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Single",
+                            "name": "ContractBonusRewardPct",
+                            "value": "0.20",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [
+
+                    ],
+                    "ForceEvents": [
+
+                    ],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
             ],
             "OnFailureResults": [
 
@@ -130,7 +156,7 @@
             "encounterChunk": {
                 "EncounterObjectGuid": "181d617b-02bc-4fd3-be25-d6d5cffb78de"
             },
-            "enableChunkFromContract": true,
+            "enableChunkFromContract": false,
             "controlledByContractChunkGroupList": [
 
             ],
@@ -168,7 +194,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "We're in the area where the hostile 'Mech was sighted.",
+                    "words": "We're facing professionals, and very well-equipped ones at that. A superheavy 'Mech is no joke.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -184,7 +210,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Move up and try to flush it out; let's see what sort of trap this is.",
+                    "words": "We've picked up comm signals from this region, so that's where you should start looking.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -194,13 +220,13 @@
                     "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "",
+                    "cameraFocusGuid": "d9a28c08-abdb-42bb-a140-ad3927d1f8cf",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
                 },
                 {
-                    "words": "Stay alert, Commander. Oliveira out.",
+                    "words": "Keep them off balance. And be careful, Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -225,7 +251,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "All targets down, Commander. Good shooting.",
+                    "words": "Good work, Commander. I've signaled our employers that their operations are safe for now.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -250,7 +276,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "We're not going to be able to pull a win out of this one, Commander.",
+                    "words": "Some days you're hammer, other days you're the anvil. Let's head home, Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -564,7 +590,8 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_mech"
+                        "lance_type_support",
+                        "lance_type_notallvehicles"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -580,7 +607,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 3,
+                "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
@@ -634,7 +661,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_None",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [
 
@@ -677,7 +704,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_None",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [
 
@@ -720,7 +747,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_None",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [
 
@@ -766,8 +793,7 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_support",
-                        "lance_type_notallvehicles"
+                        "lance_type_fire"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -783,7 +809,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 1,
+                "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
