@@ -1,6 +1,6 @@
 {
-    "ID": "SoloDuel_ExtremeCloseup_SH",
-    "contractName": "Extreme Close-Up",
+    "ID": "SoloDuel_ExtremeCloseup_SH_elite",
+    "contractName": "Extreme Close-Up (+)",
     "contractDisplayStyle": "BaseCampaignNormal",
     "difficulty": 8,
     "difficultyUIModifier": 0,
@@ -11,9 +11,9 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Commander, your exploits have come to our attention. We're conducting research on how to fight superheavy 'Mechs and we need data on the most effective fighting styles. Sound interesting? Good, because you're just the kind of pilot we've been looking for. We've arranged for an ex-{TEAM_TAR.FactionDef.Demonym} pilot to duel you for a data gathering exercise. What do you say? You'll be well rewarded.",
+    "shortDescription": "Commander, your exploits have come to our attention. We're conducting research on how to fight superheavy 'Mechs and we need data on the most effective fighting styles. Sound interesting? Good, because you're just the kind of pilot we've been looking for. We've arranged for an ex-{TEAM_TAR.FactionDef.Demonym} pilot to duel you for a data gathering exercise. What do you say? You'll be well rewarded.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
     "longDescription": "I'm not sure how useful this duel will be, Commander. You're not supposed to fight superheavy 'Mechs one-on-one. Still, this is just an exercise so no-one's getting killed... I think.",
-    "salvagePotential": 4,
+    "salvagePotential": 6,
     "requirementList": [
         {
             "Scope": "StarSystem",
@@ -86,7 +86,39 @@
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
+                {
+                    "Scope": "Company",
+                    "Requirements": null,
+                    "AddedTags": {
+                        "items": [
 
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [
+
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Single",
+                            "name": "ContractBonusRewardPct",
+                            "value": "0.50",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [
+
+                    ],
+                    "ForceEvents": [
+
+                    ],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
             ],
             "OnFailureResults": [
 
@@ -366,8 +398,8 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_assault",
-                        "lance_type_mech"
+                        "lance_type_assault_s_tier",
+                        "lance_type_mech_s_tier"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -397,7 +429,7 @@
                         "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-                                "unit_superheavy"
+                                "unit_superheavy_s_tier"
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
