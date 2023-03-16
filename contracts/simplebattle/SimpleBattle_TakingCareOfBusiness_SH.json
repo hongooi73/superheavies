@@ -12,7 +12,7 @@
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
     "shortDescription": "We're currently trying to engage in long-term operations in this system, which runs counter to {TEAM_TAR.FactionDef.Demonym} interests. They've hired a well-regarded mercenary outfit to engage {TEAM_EMP.FactionDef.Name} operatives on the planet's surface, and the mercenaries have sent a single, extremely heavy lance including at least one superheavy BattleMech. Our local units aren't equipped enough to deal with this class of opposition, which is why you're needed.",
-    "longDescription": "I don't like fighting other mercenaries, especially ones that have access to superheavy 'Mechs, but that's the nature of the business. Bring some serious firepower for this mission, commander.",
+    "longDescription": "I don't like fighting other mercenaries, especially ones that have access to superheavy 'Mechs, but that's the nature of the business. Bring some serious firepower for this mission, Commander.",
     "salvagePotential": 16,
     "requirementList": [
         {
