@@ -1291,8 +1291,7 @@
                 "lanceDefId": "Manual",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_dynamic_difficulty",
-                        "lance_type_assault"
+
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -1338,10 +1337,10 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "Tagged",
                         "pilotTagSet": {
                             "items": [
-
+                                "pilot_npc_d10"
                             ],
                             "tagSetSourceFile": "tags/PilotTags"
                         },
@@ -1382,10 +1381,10 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "Tagged",
                         "pilotTagSet": {
                             "items": [
-
+                                "pilot_npc_d10"
                             ],
                             "tagSetSourceFile": "tags/PilotTags"
                         },

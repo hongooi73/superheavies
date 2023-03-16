@@ -1322,7 +1322,7 @@
                 "lanceDefId": "Manual",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_assault_elite_arsenal"
+
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -1368,10 +1368,10 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "Tagged",
                         "pilotTagSet": {
                             "items": [
-
+                                "pilot_npc_d10_ace"
                             ],
                             "tagSetSourceFile": "tags/PilotTags"
                         },
@@ -1412,10 +1412,10 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "Tagged",
                         "pilotTagSet": {
                             "items": [
-
+                                "pilot_npc_d10_ace"
                             ],
                             "tagSetSourceFile": "tags/PilotTags"
                         },
