@@ -6937,7 +6937,8 @@
                         "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-                                "unit_superheavy_s_tier"
+                                "unit_superheavy",
+                                "elite_arsenal"
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
