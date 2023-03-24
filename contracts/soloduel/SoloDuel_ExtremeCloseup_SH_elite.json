@@ -399,7 +399,7 @@
                 "lanceTagSet": {
                     "items": [
                         "lance_type_assault_s_tier",
-                        "lance_type_mech_s_tier"
+                        "lance_type_mech"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
