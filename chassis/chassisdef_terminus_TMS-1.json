@@ -4,7 +4,8 @@
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Superheavy_Chassis",
             "ComponentDefType": "Upgrade",
-            "HardpointSlot": 0,
+            "HardpointSlot": -1,
+            "IsFixed": true,
             "SimGameUID": "",
             "hasPrefabName": false,
             "DamageLevel": "Functional"
