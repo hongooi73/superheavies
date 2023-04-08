@@ -1,0 +1,19 @@
+{
+    "id": "castDef_EA_SH_Ombra",
+    "internalName": "EA_SH_Ombra",
+    "firstName": "Colonel Genevieve",
+    "lastName": "Soberano",
+    "callsign": "Ombra",
+    "rank": "Thurrock Garrison Commander",
+    "gender": "Female",
+    "showRank": true,
+    "showFirstName": true,
+    "showCallsign": true,
+    "showLastName": true,
+    "factionID": "Marik",
+    "defaultEmotePortrait": {
+        "emote": "Default",
+        "portraitAssetPath": "sprites/Portraits/guiTxrPort_Ombra_utr.png"
+    },
+    "emotePotraitList": []
+}

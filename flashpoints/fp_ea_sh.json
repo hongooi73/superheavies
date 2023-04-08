@@ -1,0 +1,61 @@
+{
+    "Description" : {
+        "Id" : "fp_ea_sh",
+        "Name" : "Warzone Omega",
+        "Details" : "Elite Arsenal flashpoint",
+        "Icon" : null
+    },
+    "Weight" : 100,
+    "InternalName" : "ea_sh",
+    "PublishState" : "UNPUBLISHED",
+    "Difficulty" : 10,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "tagSetSourceFile" : "Tags/CompanyTags",
+            "items" : [
+                "planet_name_maldive"
+            ]
+        },
+        "ExclusionTags" : {
+            "tagSetSourceFile" : "Tags/PlanetTags",
+            "items" : []
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "Marik"
+    ],
+    "TargetFaction" : "WordOfBlake",
+    "AllowRefitTime" : false,
+    "FlashpointLength" : "LONG",
+    "Repeatable" : true,
+    "MilestoneSetID" : "ms_fp_sh",
+    "UseAvailableTimeoutOverride" : true,
+    "AvailableTimeout" : 180,
+    "UseInProgressTimeoutOverride" : true,
+    "InProgressTimeout" : 30,
+    "RewardCollectionID" : "itemCollection_fp_9",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "Commander, the Word of Blake has launched an all-out invasion of the Thurrock system. {COMPANY.CompanyName} is one of the top mercenary units in the Periphery, and your aid in driving back the invaders is urgently requested.",
+    "FlashpointDescriberCastDefId" : "castDef_MarikRepDefault",
+    "Tags" : {
+        "tagSetSourceFile" : "tags/FlashpointTags",
+        "items" : []
+    }
+}

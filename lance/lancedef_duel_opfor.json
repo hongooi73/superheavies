@@ -1,0 +1,57 @@
+{
+    "Description": {
+        "Id": "lancedef_duel_opfor",
+        "Name": "Dif 10 superheavy",
+        "Details": "",
+        "Icon": "",
+        "Cost": 0,
+        "Rarity": 0,
+        "Purchasable": false
+    },
+    "Difficulty": 10,
+    "LanceTags": {
+        "items": [
+
+        ],
+        "tagSetSourceFile": "Tags/LanceTags"
+    },
+    "LanceUnits": [
+        {
+            "unitType": "Mech",
+            "unitId": "mechdef_omegas_SHP-XS",
+            "pilotId": "pilot_d10_Ace_1",
+            "unitTagSet": null,
+            "excludedUnitTagSet": null,
+            "pilotTagSet": null,
+            "excludedPilotTagSet": null
+        },
+        {
+            "unitType": "Mech",
+            "unitId": "mechdef_svarogs_SH-SVG-S",
+            "pilotId": "pilot_d10_Ace_2",
+            "unitTagSet": null,
+            "excludedUnitTagSet": null,
+            "pilotTagSet": null,
+            "excludedPilotTagSet": null
+        },
+        {
+            "unitType": "Mech",
+            "unitId": "mechdef_svarogs_SH-SVG-S",
+            "pilotId": "pilot_d10_Ace_3",
+            "unitTagSet": null,
+            "excludedUnitTagSet": null,
+            "pilotTagSet": null,
+            "excludedPilotTagSet": null
+        },
+        {
+            "unitType": "Mech",
+            "unitId": "mechdef_longbowx_LGB-X1",
+            "pilotId": "pilot_d10_Elite_1",
+            "unitTagSet": null,
+            "excludedUnitTagSet": null,
+            "pilotTagSet": null,
+            "excludedPilotTagSet": null
+        }
+    ]
+}
+
