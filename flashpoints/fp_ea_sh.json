@@ -7,7 +7,7 @@
     },
     "Weight" : 100,
     "InternalName" : "ea_sh",
-    "PublishState" : "UNPUBLISHED",
+    "PublishState" : "PUBLISHED",
     "Difficulty" : 10,
     "Requirements" : [
         {
@@ -28,7 +28,7 @@
         "RequirementTags" : {
             "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
-                "planet_name_maldive"
+                "planet_name_robsart"
             ]
         },
         "ExclusionTags" : {

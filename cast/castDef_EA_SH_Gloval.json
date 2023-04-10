@@ -12,7 +12,7 @@
     "factionID": "WordOfBlake",
     "defaultEmotePortrait": {
         "emote": "Default",
-        "portraitAssetPath": "sprites/Portraits/guiTxrPort_SteelBeast_utr.png"
+        "portraitAssetPath": "../../Mods/superheavies/castSprites/guiTxrPort_EA_SH_Gloval.png"
     },
     "emotePotraitList": []
 }
