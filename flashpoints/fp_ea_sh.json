@@ -44,7 +44,7 @@
     "AllowRefitTime" : false,
     "FlashpointLength" : "LONG",
     "Repeatable" : true,
-    "MilestoneSetID" : "ms_fp_sh",
+    "MilestoneSetID" : "ms_fp_ea_sh",
     "UseAvailableTimeoutOverride" : true,
     "AvailableTimeout" : 180,
     "UseInProgressTimeoutOverride" : true,

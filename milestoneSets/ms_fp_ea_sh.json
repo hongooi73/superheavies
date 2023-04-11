@@ -119,7 +119,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c577f49c8ecb2dc1e7038ac",
+                            "value" : "9c5eec6a933a2c54c2d51736",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name}",
@@ -557,7 +557,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c437443cfbb46c4e41ef956",
+                            "value" : "9c0397bd61bbcd9ce7deb348",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name}",
