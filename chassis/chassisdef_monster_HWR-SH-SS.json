@@ -2,7 +2,7 @@
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Superheavy_Chassis",
+            "ComponentDefID": "Gear_Superheavy_Chassis_1",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -12,27 +12,27 @@
         }
     ],
     "Description": {
-        "Cost": 20000000,
+        "Cost": 25000000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Svarog",
-        "Id": "chassisdef_svarog_SH-SVG-X",
-        "Name": "Svarog",
-        "Details": "The Svarog, also known as the King Crab II, is named after the ancient Slavic god of fire. Unlike most other superheavy designs, it is intended to be a breakthrough 'Mech: it acts as the spearhead of an advance, engaging points of resistance and destroying them with massive firepower from its paired RAC/5s and binary lasers. Multiple flamers allow it to deal with anti-'Mech infantry, commonly the bane of assault 'Mechs. The Svarog has proved to be quite successful; even if an overconfident MechWarrior outruns their support, the 'Mech's sheer firepower and protection mean it can survive against heavy odds until help arrives.",
+        "UIName": "Monster",
+        "Id": "chassisdef_monster_HWR-SH-SS",
+        "Name": "Monster",
+        "Details": "The personal superheavy 'Mech of Precentor Vladimir Gloval, of the Manei Domini. Based on a heavily modified S-tier Omega chassis, the Monster featured unrivalled firepower along with surprising mobility for its 150-ton weight. It was lost in battle along with the rest of Gloval's operational strike group on the world of Thurrock.",
         "Icon": "uixTxrIcon_superheavy"
     },
-    "MovementCapDefID": "movedef_stonerhino_300",
+    "MovementCapDefID": "movedef_annihilator_ANH-1A",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_kingcrab",
-    "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
-    "PrefabBase": "kingcrab",
-    "Tonnage": 125,
-    "InitialTonnage": 33,
+    "HardpointDataDefID": "hardpointdatadef_monster",
+    "PrefabIdentifier": "chrprfmech_monsterbase-001",
+    "PrefabBase": "monster",
+    "Tonnage": 150,
+    "InitialTonnage": 39,
     "weightClass": "ASSAULT",
     "BattleValue": 10206000,
-    "Heatsinks": 30,
+    "Heatsinks": 45,
     "TopSpeed": 105,
     "TurnRadius": 290,
     "MaxJumpjets": 0,
@@ -51,12 +51,12 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 130,
+    "MeleeDamage": 150,
     "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
-    "DFADamage": 125,
+    "DFADamage": 150,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 125,
+    "DFASelfDamage": 150,
     "DFAInstability": 75,
     "Locations": [
         {
@@ -78,85 +78,74 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 210,
+            "MaxArmor": 250,
             "MaxRearArmor": -1,
-            "InternalStructure": 105
+            "InternalStructure": 125
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 260,
-            "MaxRearArmor": 130,
-            "InternalStructure": 130
+            "MaxArmor": 320,
+            "MaxRearArmor": 160,
+            "InternalStructure": 160
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 380,
-            "MaxRearArmor": 190,
-            "InternalStructure": 190
+            "MaxArmor": 450,
+            "MaxRearArmor": 225,
+            "InternalStructure": 225
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 260,
-            "MaxRearArmor": 130,
-            "InternalStructure": 130
+            "MaxArmor": 320,
+            "MaxRearArmor": 160,
+            "InternalStructure": 160
         },
         {
             "Location": "RightArm",
@@ -166,51 +155,43 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 210,
+            "MaxArmor": 250,
             "MaxRearArmor": -1,
-            "InternalStructure": 105
+            "InternalStructure": 125
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 260,
+            "MaxArmor": 320,
             "MaxRearArmor": -1,
-            "InternalStructure": 130
+            "InternalStructure": 160
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 260,
+            "MaxArmor": 320,
             "MaxRearArmor": -1,
-            "InternalStructure": 130
+            "InternalStructure": 160
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 14.5,
             "z": 0
         },
         {
@@ -227,38 +208,38 @@
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 14,
+            "y": 19,
             "z": 0
         },
         {
-            "x": 4,
-            "y": 15,
-            "z": -1
+            "x": 4.5,
+            "y": 16,
+            "z": -0.5
         },
         {
-            "x": -4,
-            "y": 15,
-            "z": -1
+            "x": -4.5,
+            "y": 16,
+            "z": -0.5
         },
         {
-            "x": 3.5,
+            "x": 3,
             "y": 5.5,
             "z": 1
         },
         {
-            "x": -3.5,
+            "x": -3,
             "y": 5.5,
             "z": 1
         }
     ],
-    "VariantName": "SH-SVG-X",
+    "VariantName": "HWR-SH-SS",
     "ChassisTags": {
         "items": [
-            "elite_arsenal",
+            "elite_arsenal_s_tier",
             "mr-resize-1.8"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Superheavy",
-    "YangsThoughts": "The Svarog, also known as the King Crab II, is named after the ancient Slavic god of fire. Unlike most other superheavy designs, it is intended to be a breakthrough 'Mech: it acts as the spearhead of an advance, engaging points of resistance and destroying them with massive firepower from its paired RAC/5s and binary lasers. Multiple flamers allow it to deal with anti-'Mech infantry, commonly the bane of assault 'Mechs. It has proved to be quite successful in this role, although its slow speed means it needs to be properly supported to avoid being isolated."
+    "YangsThoughts": "The personal superheavy 'Mech of Precentor Vladimir Gloval, of the Manei Domini. Based on a heavily modified S-tier Omega chassis, the Monster featured unrivalled firepower along with surprising mobility for its 150-ton weight. It was lost in battle along with the rest of Gloval's operational strike group on the world of Thurrock."
 }

@@ -7,7 +7,7 @@
     },
     "Weight" : 100,
     "InternalName" : "ea_sh",
-    "PublishState" : "PUBLISHED",
+    "PublishState" : "UNPUBLISHED",
     "Difficulty" : 10,
     "Requirements" : [
         {
@@ -49,7 +49,7 @@
     "AvailableTimeout" : 180,
     "UseInProgressTimeoutOverride" : true,
     "InProgressTimeout" : 30,
-    "RewardCollectionID" : "itemCollection_fp_9",
+    "RewardCollectionID" : "itemCollection_fp_ea_sh",
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
     "FlashpointShortDescription" : "Commander, the Word of Blake has launched an all-out invasion of the Thurrock system. {COMPANY.CompanyName} is one of the top mercenary units in the Periphery, and your aid in driving back the invaders is urgently requested.",

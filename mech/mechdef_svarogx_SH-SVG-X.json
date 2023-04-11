@@ -19,7 +19,7 @@
         "UIName": "Svarog X",
         "Id": "mechdef_svarogx_SH-SVG-X",
         "Name": "Svarog X",
-        "Details": "The Svarog, also known as the King Crab II, is named after the ancient Slavic god of fire. Unlike most other superheavy designs, it is intended to be a breakthrough 'Mech: it acts as the spearhead of an advance, engaging points of resistance and destroying them with massive firepower from its paired RAC/5s and binary lasers. Multiple flamers allow it to deal with anti-'Mech infantry, and MASC makes it surprisingly nimble for such a huge beast. The Svarog has proved to be quite successful; even if an overconfident MechWarrior outruns their support, the 'Mech's sheer firepower and protection mean it can survive against heavy odds until help arrives.",
+        "Details": "The Svarog, also known as the King Crab II, is named after the ancient Slavic god of fire. Unlike most other superheavy designs, it is intended to be a breakthrough 'Mech: it acts as the spearhead of an advance, engaging points of resistance and destroying them with massive firepower from its paired RAC/5s and binary lasers. Multiple flamers allow it to deal with anti-'Mech infantry. The Svarog has proved to be quite successful; even if an overconfident MechWarrior outruns their support, the 'Mech's sheer firepower and protection mean it can survive against heavy odds until help arrives.",
         "Icon": "uixTxrIcon_superheavy"
     },
     "simGameMechPartCost": 714821,
@@ -167,8 +167,24 @@
             "DamageLevel": "Functional"
         },
         {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Flamer_Flamer_1-Hotshot",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_BinaryLaserCannon_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Flamer_Flamer_1-Hotshot",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -207,7 +223,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Heavy_Defensive_Suite",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
@@ -265,15 +281,6 @@
             "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional",
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_MASC_1",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional",
             "hasPrefabName": false

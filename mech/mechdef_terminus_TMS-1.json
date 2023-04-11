@@ -18,7 +18,7 @@
         "UIName": "Terminus",
         "Id": "mechdef_terminus_TMS-1",
         "Name": "Terminus",
-        "Details": "Clan Diamond Shark followed up the Rampart, its first superheavy BattleMech, with the Terminus. Learning their lessons from the earlier design, the clan's designers gave the Terminus an all-energy-weapon loadout: this removes the risk of ammunition explosions, and is also better at dealing with light, agile opposition. The 'Mech's electronics remain top-notch, with the centerpiece being a Nova CEWS sourced from the clan's allies. In addition, the Terminus addresses a key disadvantage of superheavy 'Mechs by fitting an engine supercharger, giving it a top speed equal to many mediums and heavies.",
+        "Details": "Clan Diamond Shark followed up the Rampart, its first superheavy BattleMech, with the Terminus. Learning their lessons from the earlier design, the clan's designers gave the Terminus an all-energy-weapon loadout: this removes the risk of ammunition explosions, and is also better at dealing with light, agile opposition. The 'Mech's electronics remain top-notch, with the centerpiece being a Nova CEWS sourced from the clan's allies.",
         "Icon": "uixTxrIcon_superheavy"
     },
     "simGameMechPartCost": 714821,
@@ -156,7 +156,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefID": "Weapon_Laser_MediumLaserERPulse_0",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -172,7 +172,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefID": "Weapon_Laser_MediumLaserERPulse_0",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -298,15 +298,6 @@
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Guardian_ECM_CLAN",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional",
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Engine_Upgrade2X",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

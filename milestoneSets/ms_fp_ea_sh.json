@@ -1424,7 +1424,7 @@
                             "value" : "ms_fp_ea_sh_1002_reward",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "itemCollection_fp_10",
+                                "itemCollection_fp_ea_sh",
                                 null
                             ]
                         },

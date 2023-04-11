@@ -5,13 +5,13 @@
         "Purchasable": false,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Superheavy Chassis",
-        "Id": "Gear_Superheavy_Chassis",
-        "Name": "Superheavy Chassis",
+        "UIName": "Superheavy Chassis +",
+        "Id": "Gear_Superheavy_Chassis_1",
+        "Name": "Superheavy Chassis +",
         "Details": "Internal structure and components for a superheavy BattleMech. Superheavies are extremely stable and rugged firing platforms due to their size. However, this \u2014 along with their lack of speed and agility \u2014 also makes them easy targets on the battlefield. The massive weight of a superheavy 'Mech similarly rules out the use of jump jets, MASC and engine upgrades.",
         "Icon": "uixSvgIcon_special_Equipment"
     },
-    "BonusValueA": "- 30% Stb.Dmg. Taken, - 5 Recoil, - 50% Crit.",
+    "BonusValueA": "- 30% Stb.Dmg. Taken, - 5 Recoil, - 50% Crit., + 25% Speed",
     "BonusValueB": "- 1 Melee/Hit Def./Init. Penalty",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
@@ -342,7 +342,7 @@
             "statisticData": {
                 "statName": "WalkSpeed",
                 "operation": "Float_Multiply",
-                "modValue": "1",
+                "modValue": "1.25",
                 "modType": "System.Single"
             },
             "nature": "Buff"
@@ -368,7 +368,7 @@
             "statisticData": {
                 "statName": "RunSpeed",
                 "operation": "Float_Multiply",
-                "modValue": "1",
+                "modValue": "1.25",
                 "modType": "System.Single"
             },
             "nature": "Buff"
