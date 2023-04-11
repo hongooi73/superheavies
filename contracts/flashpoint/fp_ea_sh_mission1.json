@@ -2,7 +2,7 @@
     "ID": "fp_ea_sh_mission1",
     "contractName": "Twilight of the Gods: Mission 1 (+ +)",
     "contractDisplayStyle": "BaseFlashpoint",
-    "difficulty": 8,
+    "difficulty": 5,
     "difficultyUIModifier": 0,
     "weight": 1,
     "scope": "MID_CAMPAIGN",
@@ -951,7 +951,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 1,
+                "lanceDifficultyAdjustment": -1,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [

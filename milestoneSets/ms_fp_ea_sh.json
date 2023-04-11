@@ -34,6 +34,8 @@
                         "items" : [
                             "fp_choice_a",
                             "fp_choice_b",
+                            "fp_choice_c",
+                            "fp_choice_d",
                             "fp_choice_cancel"
                         ]
                     },
@@ -119,7 +121,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c5eec6a933a2c54c2d51736",
+                            "value" : "9c577f49c8ecb2dc1e7038ac",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name}",
@@ -198,7 +200,7 @@
             "Description" : {
                 "Id" : "ms_fp_ea_sh_011_mission1",
                 "Name" : "Mission 1",
-                "Details" : "Mission 1",
+                "Details" : "Capture spaceport",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -238,7 +240,7 @@
                                 "fp_ea_sh_mission1",
                                 "Marik",
                                 "WordOfBlake",
-                                "9",
+                                "5",
                                 "ms_fp_ea_sh_012_mission2",
                                 null,
                                 null
@@ -266,7 +268,7 @@
             "Description" : {
                 "Id" : "ms_fp_ea_sh_012_mission2",
                 "Name" : "Mission 2",
-                "Details" : "Mission 2",
+                "Details" : "Battle at spaceport",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -297,7 +299,7 @@
                     "Stats" : null,
                     "Actions" : [
                         {
-                            "Type" : "Flashpoint_AddContract",
+                            "Type" : "Flashpoint_StartContract",
                             "value" : "",
                             "valueConstant" : null,
                             "additionalValues" : [
@@ -306,21 +308,13 @@
                                 "fp_ea_sh_mission2",
                                 "Marik",
                                 "WordOfBlake",
-                                "9",
-                                "ms_fp_ea_sh_013_mission3",
+                                "8",
+                                "ms_fp_ea_sh_101_session2",
                                 null,
                                 null,
                                 null,
                                 null,
                                 null
-                            ]
-                        },
-                        {
-                            "Type" : "System_ForceDropshipRoom",
-                            "value" : "Contract",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
                             ]
                         }
                     ],
@@ -335,9 +329,9 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_ea_sh_013_mission3",
-                "Name" : "Mission 3",
-                "Details" : "Mission 3",
+                "Id" : "ms_fp_ea_sh_101_session2",
+                "Name" : "Session 2",
+                "Details" : "Conversation with Gloval",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -368,20 +362,21 @@
                     "Stats" : null,
                     "Actions" : [
                         {
-                            "Type" : "Flashpoint_StartContract",
-                            "value" : "",
+                            "Type" : "System_StartConversation",
+                            "value" : "9c0397bd61bbcd9ce7deb348",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "",
-                                "",
-                                "fp_ea_sh_mission3",
-                                "Marik",
-                                "WordOfBlake",
-                                "9",
-                                "ms_fp_ea_sh_014_mission4",
-                                null,
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
                                 null
                             ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_sh_102_session2result",
+                            "valueConstant" : null,
+                            "additionalValues" : null
                         }
                     ],
                     "ForceEvents" : null,
@@ -395,9 +390,59 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_ea_sh_014_mission4",
-                "Name" : "Mission 4",
-                "Details" : "Mission 4",
+                "Id" : "ms_fp_ea_sh_102_session2result",
+                "Name" : "Session 2 result",
+                "Details" : "Session 2 result",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Flashpoint",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_sh_201_mission3",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_201_mission3",
+                "Name" : "Mission 3",
+                "Details" : "Defend data archive",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -434,11 +479,11 @@
                             "additionalValues" : [
                                 "",
                                 "",
-                                "fp_ea_sh_mission4",
+                                "fp_ea_sh_mission3",
                                 "Marik",
                                 "WordOfBlake",
-                                "9",
-                                "ms_fp_ea_sh_015_mission5",
+                                "3",
+                                "ms_fp_ea_sh_202_mission4",
                                 null,
                                 null
                             ]
@@ -463,9 +508,9 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_ea_sh_015_mission5",
-                "Name" : "Mission 5",
-                "Details" : "Mission 5",
+                "Id" : "ms_fp_ea_sh_202_mission4",
+                "Name" : "Mission 4",
+                "Details" : "Advance",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -502,11 +547,11 @@
                             "additionalValues" : [
                                 "",
                                 "",
-                                "fp_ea_sh_mission5",
+                                "fp_ea_sh_mission4",
                                 "Marik",
                                 "WordOfBlake",
-                                "9",
-                                "ms_fp_ea_sh_099_debrief",
+                                "8",
+                                "ms_fp_ea_sh_301_session3",
                                 null,
                                 null
                             ]
@@ -523,7 +568,763 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_ea_sh_099_debrief",
+                "Id" : "ms_fp_ea_sh_301_session3",
+                "Name" : "Session 3",
+                "Details" : "Conversation with Ombra",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "9c5eec6a933a2c54c2d51736",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_sh_302_session3result",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_302_session3result",
+                "Name" : "Session 3 result",
+                "Details" : "Session 3 result",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Flashpoint",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : [
+                                "fp_choice_a"
+                            ]
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_sh_401_mission5",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Flashpoint",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : [
+                                "fp_choice_b"
+                            ]
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_sh_501_mission8",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_401_mission5",
+                "Name" : "Mission 5",
+                "Details" : "Raid blackout",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "",
+                                "fp_ea_sh_mission5",
+                                "Marik",
+                                "WordOfBlake",
+                                "5",
+                                "ms_fp_ea_sh_402_mission6",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_402_mission6",
+                "Name" : "Mission 5",
+                "Details" : "Raid convoy ambush",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : "",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "",
+                                "fp_ea_sh_mission6",
+                                "Marik",
+                                "WordOfBlake",
+                                "6",
+                                "ms_fp_ea_sh_403_mission7",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_403_mission7",
+                "Name" : "Mission 5",
+                "Details" : "Raid destroy base",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : "",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "",
+                                "fp_ea_sh_mission7",
+                                "Marik",
+                                "WordOfBlake",
+                                "8",
+                                "ms_fp_ea_sh_601_session4",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+
+
+
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_501_mission8",
+                "Name" : "Mission 8",
+                "Details" : "Front battle",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "",
+                                "fp_ea_sh_mission8",
+                                "Marik",
+                                "WordOfBlake",
+                                "10",
+                                "ms_fp_ea_sh_502_mission9",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_502_mission9",
+                "Name" : "Mission 9",
+                "Details" : "Front counterattack",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : "",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "",
+                                "fp_ea_sh_mission9",
+                                "Marik",
+                                "WordOfBlake",
+                                "10",
+                                "ms_fp_ea_sh_601_session4",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_601_session4",
+                "Name" : "Session 4",
+                "Details" : "Final battle decision",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "9c5eec6a933a2c54c2d51736",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_sh_602_session4result",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_602_session4result",
+                "Name" : "Session 4 result",
+                "Details" : "Session 4 result",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Flashpoint",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : [
+                                "fp_choice_c"
+                            ]
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_sh_701_mission10",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Flashpoint",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : [
+                                "fp_choice_d"
+                            ]
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_sh_702_mission11",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_701_mission10",
+                "Name" : "Mission 10",
+                "Details" : "Destroy Gloval's force",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "",
+                                "fp_ea_sh_mission10",
+                                "Marik",
+                                "WordOfBlake",
+                                "10",
+                                "ms_fp_ea_sh_1000_debrief",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_702_mission11",
+                "Name" : "Mission 11",
+                "Details" : "Duel with Gloval",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "",
+                                "",
+                                "fp_ea_sh_mission11",
+                                "Marik",
+                                "WordOfBlake",
+                                "10",
+                                "ms_fp_ea_sh_1000_debrief",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_sh_1000_debrief",
                 "Name" : "Debrief",
                 "Details" : "Debrief",
                 "Icon" : null
@@ -568,7 +1369,7 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_ea_sh_200_complete",
+                            "value" : "ms_fp_ea_sh_1001_complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -584,70 +1385,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_ea_sh_100_cancel",
-                "Name" : "Cancel fp",
-                "Details" : "Cancel fp",
-                "Icon" : null
-            },
-            "Scope" : "Company",
-            "Requirements" : [],
-            "Results" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "tagSetSourceFile" : "",
-                            "items" : []
-                        },
-                        "ExclusionTags" : {
-                            "tagSetSourceFile" : "",
-                            "items" : []
-                        },
-                        "RequirementComparisons" : []
-                    },
-                    "AddedTags" : {
-                        "tagSetSourceFile" : "",
-                        "items" : [
-                            "flashpoint_ea_10_1_cancelled"
-                        ]
-                    },
-                    "RemovedTags" : {
-                        "tagSetSourceFile" : "",
-                        "items" : []
-                    },
-                    "Stats" : null,
-                    "Actions" : [
-                        {
-                            "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_ea_sh_201_reward",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "itemCollection_loot_none",
-                                null
-                            ]
-                        },
-                        {
-                            "Type" : "System_ForceDropshipRoom",
-                            "value" : "Ship",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
-                            ]
-                        }
-                    ],
-                    "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
-            "Repeatable" : false,
-            "UseRandomInvocation" : false,
-            "InvokeChance" : 0
-        },
-        {
-            "Description" : {
-                "Id" : "ms_fp_ea_sh_200_complete",
+                "Id" : "ms_fp_ea_sh_1001_complete",
                 "Name" : "Complete",
                 "Details" : "Complete",
                 "Icon" : null
@@ -672,7 +1410,7 @@
                     "AddedTags" : {
                         "tagSetSourceFile" : "",
                         "items" : [
-                            "flashpoint_ea_10_1_complete"
+                            "flashpoint_ea_sh_complete"
                         ]
                     },
                     "RemovedTags" : {
@@ -683,7 +1421,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_ea_sh_201_reward",
+                            "value" : "ms_fp_ea_sh_1002_reward",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "itemCollection_fp_10",
@@ -710,7 +1448,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_ea_sh_201_reward",
+                "Id" : "ms_fp_ea_sh_1002_reward",
                 "Name" : "Reward",
                 "Details" : "rewards",
                 "Icon" : null
@@ -744,7 +1482,7 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "0",
+                            "value" : "10000000",
                             "set" : false,
                             "valueConstant" : null
                         }
@@ -753,36 +1491,6 @@
                     "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
-                },
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "tagSetSourceFile" : "",
-                            "items" : []
-                        },
-                        "ExclusionTags" : {
-                            "tagSetSourceFile" : "",
-                            "items" : []
-                        },
-                        "RequirementComparisons" : []
-                    },
-                    "AddedTags" : {
-                        "tagSetSourceFile" : "Tags/CompanyTags",
-                        "items" : [
-                            "flashpoint_ea_10_1_timeout"
-                        ]
-                    },
-                    "RemovedTags" : {
-                        "tagSetSourceFile" : "",
-                        "items" : []
-                    },
-                    "Stats" : null,
-                    "Actions" : null,
-                    "ForceEvents" : null,
-                    "TemporaryResult" : true,
-                    "ResultDuration" : 365
                 }
             ],
             "Repeatable" : false,
