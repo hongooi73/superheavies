@@ -21,7 +21,7 @@
         "UIName": "Monster",
         "Id": "mechdef_HWR-SH-SS",
         "Name": "Monster",
-        "Details": "The personal superheavy 'Mech of Precentor Vladimir Gloval, of the Manei Domini. Based on a heavily modified S-tier Omega chassis, the Monster featured unrivalled firepower along with surprising mobility for its 150-ton weight. It was lost in battle along with the rest of Gloval's operational strike group on the world of Thurrock.",
+        "Details": "The personal superheavy 'Mech of Precentor Vladimir Gloval, of the Manei Domini. Based on a heavily modified S-tier Omega chassis, the Monster featured unrivalled firepower and protection, along with surprising mobility for its 150-ton weight. It was lost in battle along with the rest of Gloval's operational strike group on the world of Thurrock.",
         "Icon": "uixTxrIcon_superheavy"
     },
     "simGameMechPartCost": 714821,
@@ -111,15 +111,6 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Heavy_Defensive_Suite_1",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": 0,
-            "SimGameUID": "",
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",

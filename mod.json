@@ -29,6 +29,10 @@
             "Type": "SimGameMilestoneSet",
             "Path": "milestoneSets"
         },
-        { "Type": "Texture2D",  "Path": "castSprites", "AddToAddendum": "ConversationTexture" }
+        { "Type": "Texture2D",  "Path": "castSprites", "AddToAddendum": "ConversationTexture" },
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "itemcol"
+        }
     ]
 }

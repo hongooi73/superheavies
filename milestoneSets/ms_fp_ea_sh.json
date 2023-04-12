@@ -36,6 +36,8 @@
                             "fp_choice_b",
                             "fp_choice_c",
                             "fp_choice_d",
+                            "fp_choice_e",
+                            "fp_choice_f",
                             "fp_choice_cancel"
                         ]
                     },
@@ -1358,7 +1360,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c0397bd61bbcd9ce7deb348",
+                            "value" : "9c446fa247cf3d93b643b8d4",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name}",

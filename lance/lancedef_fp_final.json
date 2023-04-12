@@ -1,7 +1,7 @@
 {
     "Description": {
-        "Id": "lancedef_duel_opfor",
-        "Name": "Dif 10 superheavy",
+        "Id": "lancedef_fp_final",
+        "Name": "Flashpoint boss lance",
         "Details": "",
         "Icon": "",
         "Cost": 0,
@@ -11,14 +11,14 @@
     "Difficulty": 10,
     "LanceTags": {
         "items": [
-
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": "Tags/LanceTags"
     },
     "LanceUnits": [
         {
             "unitType": "Mech",
-            "unitId": "mechdef_omegas_SHP-XS",
+            "unitId": "mechdef_monster_HWR-SH-SS",
             "pilotId": "pilot_d10_Ace_1",
             "unitTagSet": null,
             "excludedUnitTagSet": null,
@@ -45,7 +45,7 @@
         },
         {
             "unitType": "Mech",
-            "unitId": "mechdef_longbowx_LGB-X1",
+            "unitId": "mechdef_crusaderx_CRD-X3",
             "pilotId": "pilot_d10_Elite_1",
             "unitTagSet": null,
             "excludedUnitTagSet": null,
