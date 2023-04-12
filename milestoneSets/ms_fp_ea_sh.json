@@ -73,7 +73,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_ea_sh_002_briefing",
+                            "value" : "ms_fp_ea_sh_1000_debrief",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
