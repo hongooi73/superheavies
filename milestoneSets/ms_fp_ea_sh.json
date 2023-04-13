@@ -302,7 +302,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "",
+                            "value" : "mapGeneral_gridLock_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",

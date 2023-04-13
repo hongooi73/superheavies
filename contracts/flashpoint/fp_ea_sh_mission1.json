@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "We've discovered that {TEAM_TAR.FactionDef.Name} has reactivated an old manufacturing facility in this system. To maintain the balance of power in this system, {TEAM_EMP.FactionDef.Name} needs to capture this facility. You'll make a surgical strike, occupy the base, and hold it until {TEAM_EMP.FactionDef.Demonym} forces can arrive to take control.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "They haven't told us what, precisely, the facility is producing, but given the strength of enemy forces on the ground, it's something worth protecting.",
+    "shortDescription": "Taking the spaceport of Akhand Bharat city is vital to a successful relief expedition. Your mission is to capture vital installations in and around the spaceport, and hold them against enemy counterattacks. These include DropShip hangars and repair facilities, a power station, and control buildings for the planet's hyperpulse generator.",
+    "longDescription": "The HPG control building is the key structure here, with the local defenders believed to be stationed close by. They're relatively light, but don't underestimate Blakist demi-lances.",
     "salvagePotential": 19,
     "requirementList": [
 
@@ -39,14 +39,14 @@
         -1,
         -1
     ],
-    "mapMood": null,
+    "mapMood": "UrbanDaySmoggy",
     "startingFogOfWarVisibility": "Surveyed",
     "contractObjectiveList": [
         {
             "contractObjective": {
                 "EncounterObjectGuid": "dee3ebc7-d9df-4e5f-bfbb-0fb7dff587f8"
             },
-            "title": "Capture the Manufacturing Facility",
+            "title": "Capture the Spaceport Infrastructure",
             "description": "",
             "isPrimary": true,
             "forPlayer": "Player1",
@@ -194,7 +194,7 @@
             "objective": {
                 "EncounterObjectGuid": "1e13d14a-9a12-4b6f-b567-8bde83e77275"
             },
-            "title": "Pacify the Area around the Base",
+            "title": "Pacify the Area around the Facility",
             "description": "This is a general objective to indicate the player must keep playing and eliminate enemies as they come.",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -364,7 +364,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "The manufacturing facility is just ahead, Commander.",
+                    "words": "The HPG control facility is just ahead, Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -562,7 +562,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Dropship inbound for landing, Commander. Once they secure the facility, we're dusting off.",
+                    "words": "Dropship inbound for landing, Commander. Once we secure the vicinity, they can start offloading.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -628,7 +628,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "That's a Star League era manufacturing facility, all right. No wonder {TEAM_EMP.FactionDef.Name} wants it so bad.",
+                    "words": "Hyperpulse generator control buildings sighted.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -933,8 +933,7 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_support_elite_arsenal",
-                        "lance_type_notallvehicles_elite_arsenal",
+                        "lance_type_mech_elite_arsenal",
                         "elite_arsenal_ss"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"

@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "We have detected an inbound dropship belonging to {TEAM_TAR.FactionDef.Name}. Our local defense forces in the expected drop area are ill-equipped to handle a lance of 'Mechs, but with your aid we can ensure that the raid does minimal damage. We'd like you to intercept the {TEAM_TAR.FactionDef.Demonym} lance and destroy it.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "Commander, {TEAM_TAR.FactionDef.ShortName} wouldn't send a dropship if they didn't mean business. So if we take this job, we should stay alert down there.",
+    "shortDescription": "We had prior intelligence of a Word of Blake assault demi-lance in reserve. Our scouts have now reported that it's moving to recapture the spaceport. You'll have to intercept and destroy it if the landing is to go ahead.",
+    "longDescription": "Commander, the scouts also reported a very large 'Mech among the Blakists. My guess is that it's a superheavy.",
     "salvagePotential": 15,
     "requirementList": [
 
@@ -39,7 +39,7 @@
         -1,
         -1
     ],
-    "mapMood": null,
+    "mapMood": "UrbanDaySmoggy",
     "startingFogOfWarVisibility": "Surveyed",
     "contractObjectiveList": [
         {
@@ -47,7 +47,7 @@
                 "EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
             },
             "title": "Destroy the Invading Lance",
-            "description": "Interdict the enemy dropship before the 'Mechs can reach the civilization centers.",
+            "description": "Interdict the enemy demi-lance before it can reach the spaceport.",
             "isPrimary": true,
             "forPlayer": "Player1",
             "objectiveGuids": [
@@ -172,7 +172,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "The enemy dropship landed somewhere in this area, Commander.",
+                    "words": "The enemy lance was last sighted in this zone, Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -199,22 +199,6 @@
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "d9a28c08-abdb-42bb-a140-ad3927d1f8cf",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "Let's put a stop to their raid, Commander.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_DariusDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -254,7 +238,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "The {TEAM_TAR.FactionDef.Demonym} raiders are going to run roughshod over the region.",
+                    "words": "The {TEAM_TAR.FactionDef.Demonym} 'Mechs are going to run roughshod over the spaceport.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -596,7 +580,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_matarIIs_SAM-RS-MTS",
                         "unitTagSet": {
                             "items": [
 
