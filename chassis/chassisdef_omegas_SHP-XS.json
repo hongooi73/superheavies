@@ -25,9 +25,9 @@
     },
     "MovementCapDefID": "movedef_annihilator_ANH-1A",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_monster",
-    "PrefabIdentifier": "chrprfmech_monsterbase-001",
-    "PrefabBase": "monster",
+    "HardpointDataDefID": "hardpointdatadef_omega",
+    "PrefabIdentifier": "chrprfmech_omegabase-001",
+    "PrefabBase": "omega",
     "Tonnage": 150,
     "InitialTonnage": 39,
     "weightClass": "ASSAULT",
@@ -236,7 +236,7 @@
     "ChassisTags": {
         "items": [
             "elite_arsenal_s_tier",
-            "mr-resize-1.8"
+            "mr-resize-1.6"
         ],
         "tagSetSourceFile": ""
     },

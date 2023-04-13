@@ -73,7 +73,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_ea_sh_1000_debrief",
+                            "value" : "ms_fp_ea_sh_002_briefing",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -234,7 +234,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "",
+                            "value" : "mapGeneral_cityCenter_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
