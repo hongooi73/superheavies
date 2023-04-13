@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "We need to make a deniable strike on a {TEAM_TAR.FactionDef.Demonym} convoy. Intel shows the convoy is a shipment of weapons, including at least one intact Star League era weapon system. That level of technology could shift the balance of power in {TGT_SYSTEM.name} - something {TEAM_EMP.FactionDef.Demonym} leadership isn't willing to tolerate.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "Obviously, {TEAM_EMP.FactionDef.ShortName} would prefer to salvage the lostech themselves, requiring us to clear out any defending forces. Thus, they're paying more if we clear out the defenders.",
+    "shortDescription": "There's a juicy target available for you, Commander: a Word of Blake convoy on its way to join the forces besieging Colonel Soberano. This is an opportunity to destroy the enemy forces piecemeal and relieve the pressure on the defenders.",
+    "longDescription": "This is exactly why we're conducting this raid. We just need to be sure we can actually destroy that convoy",
     "salvagePotential": 23,
     "requirementList": [
 

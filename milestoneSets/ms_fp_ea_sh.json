@@ -544,7 +544,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "",
+                            "value" : "mapGeneral_highway_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -754,7 +754,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "",
+                            "value" : "mapStory_storyEncounter7_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
