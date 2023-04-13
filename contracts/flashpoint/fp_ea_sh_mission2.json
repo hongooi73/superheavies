@@ -580,7 +580,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_matarIIs_SAM-RS-MTS",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [
 
@@ -623,7 +623,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_matarIIs_SAM-RS-MTS",
                         "unitTagSet": {
                             "items": [
 

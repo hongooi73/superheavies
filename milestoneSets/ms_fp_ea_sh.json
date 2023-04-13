@@ -476,7 +476,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "",
+                            "value" : "mapGeneral_cragMire_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",

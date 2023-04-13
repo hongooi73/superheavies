@@ -1,0 +1,18 @@
+{
+    "id": "castDef_EA_SH_MarikArchivist",
+    "internalName": "EA_SH_MarikArchivist",
+    "firstName": "Marik",
+    "lastName": "Archivist",
+    "callsign": null,
+    "rank": "Government employee",
+    "showRank": false,
+    "showFirstName": true,
+    "showCallsign": false,
+    "showLastName": true,
+    "factionID": "Locals",
+    "defaultEmotePortrait": {
+        "emote": "Default",
+        "portraitAssetPath": "sprites/Portraits/guiTxrPort_LiaoMatriarch_utr.png"
+    },
+    "emotePotraitList": []
+}

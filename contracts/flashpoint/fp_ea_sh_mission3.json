@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "As part of a propaganda effort, we've been operating a secret holo-vid broadcasting facility on {TGT_SYSTEM.Name}. The clearest sign that our efforts are working is that {TEAM_TAR.FactionDef.Demonym} agents have spent months searching for the facility. Unfortunately, they've succeeded, and are launching an assault on what they believe to be an undefended installation. While our personnel prepare for evacuation and destroy all the files and documents, we need a team of mercenaries to hold off {TEAM_TAR.FactionDef.Demonym} forces.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "Even though {TEAM_TAR.FactionDef.Name} supposedly believes the facility is 'undefended', I'm still expecting a stand-up fight, Commander.",
+    "shortDescription": "Commander, we've picked up a distress call from a government data archive facility on your path of advance. There are Word of Blake 'Mechs moving towards it, most likely intending to burn it to the ground as part of their brutal Jihad. We're aware that your primary objective is to relieve Colonel Soberano's defenders, but we can't ignore our citizens' calls for help. Please send a force to defend the facility and keep its workers and contents safe.",
+    "longDescription": "Commander, it appears that the 'Mechs in question are lights and mediums. It's a raiding party \u2014 perfectly suited to committing atrocities against civilians. We should be able to destroy them without compromising the mission.",
     "salvagePotential": 19,
     "requirementList": [
 
@@ -46,7 +46,7 @@
             "contractObjective": {
                 "EncounterObjectGuid": "6f5f8d17-70ed-44a8-acc0-ccf9258925aa"
             },
-            "title": "Defend Holo-Vid Facility",
+            "title": "Defend Data Archive Facility",
             "description": "",
             "isPrimary": true,
             "forPlayer": "Player1",
@@ -65,7 +65,7 @@
             "objective": {
                 "EncounterObjectGuid": "ca677a4d-19c8-4d0c-9c5e-3ed712081336"
             },
-            "title": "Defend Holo-Vid Facility",
+            "title": "Defend Data Archive Facility",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -417,7 +417,23 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Commander, we're tasked with defending a propaganda facility.",
+                    "words": "Please, you've got to help us! The Word of Blake are going to destroy this archive!",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_EA_SH_MarikArchivist",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Don't worry, we're here. Commander, I'm picking up a Blakist demi-lance closing in rapidly.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -433,14 +449,30 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "We have scattered reports of possible hostiles in the area. Looks like the {TEAM_TAR.FactionDef.Name} mean to shut down this operation.",
+                    "words": "I don't know why they're doing this. We don't have anything that could be considered top secret or heretical \u2014 ancient Comstar records, lostech....",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_EA_SH_MarikArchivist",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "What <i>does</i> this archive contain?",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_Commander",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "4d39e72c-4f99-4cc6-8fe0-d4d18cad0063",
@@ -449,7 +481,23 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Hold the facility, keep the buildings upright, and destroy the attackers. Good luck.",
+                    "words": "We're a disaster recovery mirror site for the federal data centers on Atreus. There's nothing here but administrative databases. Payroll, healthcare, that sort of thing.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_EA_SH_MarikArchivist",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "What does the Word of Blake have against healthcare? Ah well, we all know they're insane.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -474,7 +522,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Excellent work, Commander; {TEAM_TAR.FactionDef.ShortName} won't stop the signal today.",
+                    "words": "Excellent work, Commander; the Word of Blake won't be burning anything today.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -482,6 +530,54 @@
                         "a": 1
                     },
                     "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "I've heard from my colleagues at other sites that they've been targeted as well. These sites don't contain anything of military value or religious significance. They're just civilian \u2014 federal \u2014 data centers.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_EA_SH_MarikArchivist",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Now that's interesting. Thanks for the information.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_Commander",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Thank <i>you</i> for saving us, Commander. And good luck kicking the Blakists off this planet!",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_EA_SH_MarikArchivist",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
