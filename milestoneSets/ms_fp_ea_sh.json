@@ -822,7 +822,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "",
+                            "value" : "mapGeneral_bluffs_vHigh",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -882,7 +882,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "",
+                            "value" : "mapGeneral_rockyCliffs_vHigh",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -906,9 +906,6 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-
-
-
         {
             "Description" : {
                 "Id" : "ms_fp_ea_sh_501_mission8",
@@ -945,7 +942,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "",
+                            "value" : "mapGeneral_boggyRocks_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",

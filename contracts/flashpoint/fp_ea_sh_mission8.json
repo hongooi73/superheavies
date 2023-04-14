@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": "",
     "badFaithStatementOverride": "",
     "goodFaithStatementOverride": "",
-    "shortDescription": "The expected Word of Blake attack has begun. Scouts have detected a number of Leopard-class DropShips in the air, bearing the vanguard of the assault force. Your mission is to carry out a pre-emptive strike to destroy them at their assembly point, before they can hit our forward line of troops. We've allocated a lance of regulars to support you in this risky endeavor.",
-    "longDescription": "Taking on multiple Blakist demi-lances won't be easy. Let's try to keep these guys alive, Commander.",
+    "shortDescription": "The expected Word of Blake attack has begun. Scouts have detected a number of Leopard-class DropShips in the air, containing the vanguard of the assault force. Your mission is to carry out a pre-emptive strike to destroy them at their assembly point, before they can hit our forward line of troops. We've allocated a lance of our best regulars to support you in this risky endeavor.",
+    "longDescription": "Taking on multiple Blakist demi-lances won't be easy. Let's hope these guys can pull their weight, Commander.",
     "salvagePotential": 23,
     "requirementList": [
 
@@ -3270,7 +3270,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Commander, Colonel Soberano has sent me to provide support. The Blakists are tough opposition, but we've been fighting them for a while. Don't worry about us.",
+                    "words": "Commander, Colonel Soberano has sent us to provide support. The Blakists are tough bastards, but we know how they operate. Don't worry about us.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3302,14 +3302,14 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "{COMMANDER.Callsign}, this is Ombra. Don't feel obligated to stick your neck out to keep my people alive... but I'll make it worth your while if you do.",
+                    "words": "{COMMANDER.Callsign}, this is Ombra. Don't feel like you have to stick your neck out to keep my people alive... but I'll make it worth your while if you do.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
