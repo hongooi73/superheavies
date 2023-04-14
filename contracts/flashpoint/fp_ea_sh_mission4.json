@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "The Thurrock garrison isn't far now. Scouts have detected two Blakist assault demi-lances blocking the road ahead of you. Defeat them to clear the way for the advance to proceed. Be aware that they're reinforced with superheavy 'Mechs.",
-    "longDescription": "Buckle up, Commander. Two assault demi-lances with superheavies? This is going to be tough.",
+    "shortDescription": "Well done on securing the spaceport, Commander. The next phase of the operation is to make contact with the Thurrock garrison, which is holed up in the hills outside Akhand Bharat city. Scouts have detected two Blakist assault demi-lances, reinforced with superheavy 'Mechs, blocking the road ahead. Your mission is to defeat them to clear the way for the advance to proceed.",
+    "longDescription": "Two assault demi-lances with superheavies? This is going to be tough.",
     "salvagePotential": 19,
     "requirementList": [
 

@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "A heavily armed pirate band has taken control of a facility on {TGT_SYSTEM.Name} and are using it as a base of operations for raiding and terrorizing nearby settlements. The {TEAM_EMP.FactionDef.Demonym} authorities do not have the local military resources to assault the base, given how extensively they've entrenched. We need you to destroy the base so that they can no longer use it as a staging area for their criminal acts.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "If there are enough pirates there to present a problem for local authorities, we should be prepared for a tough fight, Commander.",
+    "shortDescription": "Our scouts have located a major Word of Blake logistics base, containing massive amounts of fuel, ammunition, spare parts and other supplies. This base is critical to their ability to sustain operations in this area. Your mission is to destroy that base.",
+    "longDescription": "If this base is as critical as they say, it won't be lightly defended. Prepare for the worst, Commander.",
     "salvagePotential": 19,
     "requirementList": [
 
@@ -46,7 +46,7 @@
             "contractObjective": {
                 "EncounterObjectGuid": "6f5f8d17-70ed-44a8-acc0-ccf9258925aa"
             },
-            "title": "Destroy Pirate Facility Structures and Escape",
+            "title": "Destroy Logistics Base Structures and Escape",
             "description": "",
             "isPrimary": true,
             "forPlayer": "Player1",
@@ -63,7 +63,7 @@
             "objective": {
                 "EncounterObjectGuid": "3ac1476d-5ab0-436b-aa68-e1a5436e796f"
             },
-            "title": "Destroy Facility Structures",
+            "title": "Destroy Logistics Base",
             "description": ".",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -111,7 +111,7 @@
             "objective": {
                 "EncounterObjectGuid": "979864d1-7d84-4797-b032-696a157deed8"
             },
-            "title": "Destroy Pirate Garrison",
+            "title": "Destroy Word of Blake Garrison",
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
@@ -207,7 +207,7 @@
             "objective": {
                 "EncounterObjectGuid": "ea4504c3-8dcc-4049-bff2-784c423f0aa8"
             },
-            "title": "Destroy Pirate Reinforcements",
+            "title": "Destroy Blakist Reinforcements",
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
@@ -352,7 +352,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Watch for fixed gun emplacements and enemy defenders. These pirates have nothing to lose, so they'll be desperate.",
+                    "words": "Watch for fixed gun emplacements and enemy defenders. This base won't be left unguarded.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -393,7 +393,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Well done, Commander. Any remaining pirate forces will have nowhere to hide.",
+                    "words": "Well done, Commander. Any remaining Blakist forces will have nowhere to hide.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -443,7 +443,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "As I suspected, Commander. We've picked up additional pirate forces closing on your position.",
+                    "words": "As I suspected, Commander. We've picked up additional Blakist forces closing on your position.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -850,7 +850,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 1,
+                "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
@@ -861,7 +861,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_omegas_SHP-XS",
                         "unitTagSet": {
                             "items": [
 

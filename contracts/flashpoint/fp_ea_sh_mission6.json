@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "There's a juicy target available for you, Commander: a Word of Blake convoy on its way to join the forces besieging Colonel Soberano. This is an opportunity to destroy the enemy forces piecemeal and relieve the pressure on the defenders.",
-    "longDescription": "This is exactly why we're conducting this raid. We just need to be sure we can actually destroy that convoy",
+    "shortDescription": "There's a heavy convoy on its way to join the Blakist forces gathering to attack Colonel Soberano. This is an opportunity to destroy the enemy forces piecemeal and relieve the pressure on our forces.",
+    "longDescription": "This is exactly why we're conducting this raid, Commander. We just need to be sure we can actually destroy that convoy",
     "salvagePotential": 23,
     "requirementList": [
 
@@ -1311,7 +1311,7 @@
                         "lance_type_support_elite_arsenal",
                         "elite_arsenal_ss"
                     ],
-                    "tagSetSourceFile": "tags/LanceTags"
+                    "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [

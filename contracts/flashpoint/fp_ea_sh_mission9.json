@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "A {TEAM_EMP.FactionDef.Demonym} industrial lab is at a critical juncture in its R&D program. Any disruption would set us back a decade. {TEAM_TAR.FactionDef.Name} on {TGT_SYSTEM.name} has discovered this, and they've already interdicted the first lance of 'Mechs that were sent to defend the facility. We need mercenaries to step in and buy the time necessary for further reinforcements to arrive.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "I'm guessing our employers know that a hammer blow is coming, so we'll expected to take the brunt of the attack until their reinforcements arrive on the field.",
+    "shortDescription": "Commander, we need an immediate deployment. Several Word of Blake demi-lances have penetrated our frontline and are approaching our main base, containing our headquarters and logistics facilities. We need your 'Mechs to intercept them before they can destroy the base. Additional forces are on the way, but you'll have to fight the initial battle on your own.",
+    "longDescription": "We just have to hold them off long enough for support to arrive. Put that way, it almost sounds easy.",
     "salvagePotential": 27,
     "requirementList": [
 
@@ -674,30 +674,14 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Commander, I've been informed that the R&D facility has some additional defense options.",
+                    "words": "{COMMANDER.Callsign}, we have point defense turrets set up around the base. However, they were taken offline when the Blakists launched a drone strike on their power generators.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "They have point defense turrets set up around the base. They were taken offline in the last assault, however.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "02048097-1c04-45e5-bbe5-be481a8dc864",
@@ -713,7 +697,7 @@
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "d3d75b1e-ace5-43e8-b037-79a2dd2b3d4e",
@@ -729,7 +713,7 @@
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "3560382a-c082-4a0b-8cab-8e6327b74cce",
@@ -1362,7 +1346,7 @@
                 "lanceTagSet": {
                     "items": [
                         "lance_type_support_elite_arsenal",
-                        "lance_type_notallvehicles_elite_arsenal",
+                        "lance_type_mech_elite_arsenal",
                         "elite_arsenal_ss"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
@@ -1379,7 +1363,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 1,
+                "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
@@ -1390,7 +1374,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_omegas_SHP-XS",
                         "unitTagSet": {
                             "items": [
 

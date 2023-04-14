@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": "",
     "badFaithStatementOverride": "",
     "goodFaithStatementOverride": "",
-    "shortDescription": "We have a developing situation, Commander. A significant {TEAM_TAR.FactionDef.Demonym} force has dropped onto the planet, and are currently moving towards critical {TEAM_EMP.FactionDef.Demonym} facilities. We cannot allow those facilities to be taken. We need you to intercept this force and destroy them. To ensure this mission goes smoothly, we'll be sending a lance of our own along on the mission.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "I'm not sure I like the idea of playing babysitter to a bunch of regulars, Commander, but I like the idea of being outgunned even less.",
+    "shortDescription": "The expected Word of Blake attack has begun. Scouts have detected a number of Leopard-class DropShips in the air, bearing the vanguard of the assault force. Your mission is to carry out a pre-emptive strike to destroy them at their assembly point, before they can hit our forward line of troops. We've allocated a lance of regulars to support you in this risky endeavor.",
+    "longDescription": "Taking on multiple Blakist demi-lances won't be easy. Let's try to keep these guys alive, Commander.",
     "salvagePotential": 23,
     "requirementList": [
 
@@ -2068,23 +2068,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "This is the target area, Commander. I'll be on station for evac.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_SumireDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "We're expecting significant enemy strength, and possible reinforcements, so keep your eyes open. Oliviera out.",
+                    "words": "The Word of Blake 'Mechs are expected to be in this area, Commander. We're expecting significant enemy strength, including at least one superheavy 'Mech, so keep your eyes open.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2917,7 +2901,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Looks like enemy reinforcements. Did we know there would be reinforcements?",
+                    "words": "Looks like more enemies are joining the fight. Did we know this was going to happen?",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2933,7 +2917,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "It was a possibility, Sumire. Commander, the new targets are part of the contract, so you'll need to take them down as well.",
+                    "words": "We were expecting this, Sumire. It's the rest of the Blakist vanguard, Commander. You'll need to take them down as well.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3286,7 +3270,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Commander, my superiors have sent me to provide support. My people will engage the targets alongside you. Once we've eliminated them, we'll proceed to our own evac LZ.",
+                    "words": "Commander, Colonel Soberano has sent me to provide support. The Blakists are tough opposition, but we've been fighting them for a while. Don't worry about us.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3318,7 +3302,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Commander, we're under no obligation to keep these people alive, but I expect if they all come back in one piece, our employers may feel... generous.",
+                    "words": "{COMMANDER.Callsign}, this is Ombra. Don't feel obligated to stick your neck out to keep my people alive... but I'll make it worth your while if you do.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -4184,7 +4168,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 1,
+                "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
                 "overrideSpawnMethod": null,
@@ -4196,7 +4180,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_omegas_SHP-XS",
                         "unitTagSet": {
                             "items": [
 
