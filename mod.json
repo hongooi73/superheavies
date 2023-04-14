@@ -13,26 +13,12 @@
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "ContractOverride", "Path": "contracts" },
         { "Type": "Sprite", "Path": "portraits" },
-        {
-            "Type": "CastDef",
-            "Path": "cast"
-        },
-        {
-            "Type": "FlashpointDef",
-            "Path": "flashpoints"
-        },
-        {
-            "Type": "SimGameConversations",
-            "Path": "simGameConversations"
-        },
-        {
-            "Type": "SimGameMilestoneSet",
-            "Path": "milestoneSets"
-        },
-        { "Type": "Texture2D",  "Path": "castSprites", "AddToAddendum": "ConversationTexture" },
-        {
-            "Type": "ItemCollectionDef",
-            "Path": "itemcol"
-        }
+        { "Type": "CastDef", "Path": "cast" },
+        { "Type": "FlashpointDef", "Path": "flashpoints" },
+        { "Type": "SimGameConversations", "Path": "simGameConversations" },
+        { "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
+        { "Type": "Texture2D", "Path": "castSprites", "AddToAddendum": "ConversationTexture" },
+        { "Type": "ItemCollectionDef", "Path": "itemcol" },
+        { "Type": "PilotDef", "Path": "pilot" }
     ]
 }

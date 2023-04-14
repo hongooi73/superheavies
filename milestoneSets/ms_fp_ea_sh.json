@@ -476,7 +476,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_cragMire_vLow",
+                            "value" : "mapGeneral_theMound_vHigh",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -978,7 +978,7 @@
             "Description" : {
                 "Id" : "ms_fp_ea_sh_502_mission9",
                 "Name" : "Mission 9",
-                "Details" : "Front counterattack",
+                "Details" : "Front defend base",
                 "Icon" : null
             },
             "Scope" : "Company",
@@ -1010,7 +1010,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "",
+                            "value" : "mapGeneral_cragMire_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -1221,7 +1221,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "",
+                            "value" : "mapGeneral_highway_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -1289,7 +1289,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "",
+                            "value" : "mapStory_StoryEncounter9_vHigh",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",

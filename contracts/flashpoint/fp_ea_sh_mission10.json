@@ -2,7 +2,7 @@
     "ID": "fp_ea_sh_mission10",
     "contractName": "Leviathan: Mission 10 (+ +)",
     "contractDisplayStyle": "BaseFlashpoint",
-    "difficulty": 8,
+    "difficulty": 5,
     "difficultyUIModifier": 0,
     "weight": 1,
     "scope": "MID_CAMPAIGN",
@@ -11,9 +11,9 @@
     "missionSuccessStatementOverride": "",
     "badFaithStatementOverride": "",
     "goodFaithStatementOverride": "",
-    "shortDescription": "This is it, Commander. The final confrontation with Gloval and his remaining Manei Domini.",
-    "longDescription": "Everything hangs on this, Commander. Let's make it good.",
-    "salvagePotential": 23,
+    "shortDescription": "Commander, we've detected a Blakist assault demi-lance close to your position. Our units are dispersed as part of mopping up the remnants of Precentor Gloval's operational strike group, and there is nothing in the vicinity that is capable of taking on that demi-lance. Please move in and eliminate it.",
+    "longDescription": "I have a bad feeling about this, Commander. We still haven't located Gloval. Bring a strong force.",
+    "salvagePotential": 15,
     "requirementList": [
 
     ],
@@ -46,7 +46,7 @@
             "contractObjective": {
                 "EncounterObjectGuid": "8d7e4513-f6c4-4914-a08f-d7baa89672be"
             },
-            "title": "Destroy Primary {TEAM_TAR.FactionDef.Demonym} Lance",
+            "title": "Destroy {TEAM_TAR.FactionDef.Demonym} Lance",
             "description": "",
             "isPrimary": true,
             "forPlayer": "Player1",
@@ -72,7 +72,7 @@
             "objective": {
                 "EncounterObjectGuid": "d5ee674b-8993-4804-9fa2-b0a73be466e4"
             },
-            "title": "Destroy Primary {TEAM_TAR.FactionDef.Demonym} Lance",
+            "title": "Destroy {TEAM_TAR.FactionDef.Demonym} Lance",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -188,39 +188,7 @@
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -280,7 +248,7 @@
             "objective": {
                 "EncounterObjectGuid": "c02cca7e-6e2c-4a3d-beb0-f9af713a466f"
             },
-            "title": "Destroy Secondary {TEAM_TAR.FactionDef.Demonym} Lance",
+            "title": "Destroy Additional Enemy Forces",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -348,39 +316,7 @@
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -508,39 +444,7 @@
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -600,7 +504,7 @@
             "objective": {
                 "EncounterObjectGuid": "f55ef49e-4035-42eb-97fa-ba0063e1306b"
             },
-            "title": "Destroy Additional Enemy Allied Reinforcements",
+            "title": "Destroy {TEAM_TAR_ALLY.FactionDef.Demonym} Reinforcements",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -668,39 +572,7 @@
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -764,39 +636,7 @@
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -828,39 +668,7 @@
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -908,39 +716,7 @@
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -972,39 +748,7 @@
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -1084,39 +828,7 @@
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -1176,43 +888,11 @@
             "objective": {
                 "EncounterObjectGuid": "ac4199e4-c42e-4a41-ae0e-cf10f7dfcf8a"
             },
-            "title": "Ensure {TEAM_EMP.FactionDef.Demonym} Forces Reach Evac Zone",
+            "title": "Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.",
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -1224,43 +904,11 @@
             "objective": {
                 "EncounterObjectGuid": "62fad70b-c2a9-478d-b6a2-cb13ba99a573"
             },
-            "title": "At least one {TEAM_EMP.FactionDef.Demonym} unit must reach evac zone",
+            "title": "The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone",
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -1372,39 +1020,7 @@
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -1420,39 +1036,7 @@
             "description": "",
             "isPrimary": false,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.1",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -1675,7 +1259,7 @@
             "encounterChunk": {
                 "EncounterObjectGuid": "2cf7c676-93a5-416c-9f27-58f4d9493aff"
             },
-            "enableChunkFromContract": true,
+            "enableChunkFromContract": false,
             "controlledByContractChunkGroupList": [
                 "Target Additional Dropped Forces Chunk Group",
                 "Enemy Ally Additional Forces Chunk Group"
@@ -1757,7 +1341,7 @@
             "encounterChunk": {
                 "EncounterObjectGuid": "7f7e150a-d8e3-4587-9d79-3c2dfe928855"
             },
-            "enableChunkFromContract": false,
+            "enableChunkFromContract": true,
             "controlledByContractChunkGroupList": [
                 "Enemy Ally Landed Forces Chunk Group"
             ],
@@ -2068,14 +1652,14 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "This is the target area, Commander. I'll be on station for evac.",
+                    "words": "We've got them, Commander. Right out in the open.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_SumireDefault",
+                    "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -2084,7 +1668,23 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "We're expecting significant enemy strength, and possible reinforcements, so keep your eyes open. Oliviera out.",
+                    "words": "These guys are amateurs. Get eyes on them, take them out.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "3f899376-6d15-413c-a260-a5f0aecff9bd",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Good hunting, Commander. Oliveira out.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2109,7 +1709,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "That was rough, Commander. Well done.",
+                    "words": "I've contacted our {TEAM_EMP.FactionDef.Demonym} rep to find out why we weren't told about the extra lance. Let's debrief in orbit, Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2134,7 +1734,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "That was catastrophic, Commander. Let's head home and figure out what went wrong.",
+                    "words": "I've contacted our {TEAM_EMP.FactionDef.Demonym} rep to find out why we weren't told about the extra lance. Let's debrief in orbit, Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2184,7 +1784,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Heads up: We've got a 'Mech down, Argo.",
+                    "words": "PLACEHOLDER Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2200,14 +1800,14 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "This is Argo actual; we copy. Commander, they won't be able to take much more of this.",
+                    "words": "PLACEHOLDER Grace under fire folks. Lay it on 'em!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_TeamLeader_Employer",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -2225,7 +1825,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACEHOLDER We're under serious fire out here, Argo. We need support!",
+                    "words": "PLACEHOLDER We lost Quebec Two Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2241,14 +1841,14 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "PLACEHOLDER Argo actual; acknowledged. Commander, if you want to keep our",
+                    "words": "PLACEHODLER This is Quebec actual return fire and check your rear arc!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_TeamLeader_EmployersAlly",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -2266,7 +1866,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Dammit. They've taken out the last of the {TEAM_EMP.FactionDef.Demonym} lance, Commander. We're on our own.",
+                    "words": "Colonel Soberano's lance has been destroyed.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2316,7 +1916,23 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACEHOLDER, Hark {COMMANDER.Name} here are unexpected {TEAM_TAR_ALLY.FactionDef.Demonym} bad guys are here too. Don't that beat it all. This is the primary objective version.",
+                    "words": "Uh, Darius? We've got company.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_SumireDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "I knew it. It's Gloval!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2332,14 +1948,46 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.",
+                    "words": "Face me, Commander {COMMANDER.LastName}! Come to your doom!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_EA_SH_Gloval",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "{COMMANDER.Callsign}, we've got your back. Just focus on taking down that son of a bitch.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Oh boy.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_SumireDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -2546,7 +2194,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Primary objective completed, Commander. We're headed to our evac LZ. Good working with you.",
+                    "words": "PLACEHOLDER All our objectives are complete, cover our withdraw Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2562,7 +2210,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "We'll need to wait till they're safely away if we want the bonus for covering their evac, Commander.",
+                    "words": "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2612,14 +2260,14 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "The {TEAM_EMP.FactionDef.Demonym} lance is safely away, Commander. We're clear to get out of here.",
+                    "words": "PLACEHOLDER Thanks for the assist, we're clear.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_SumireDefault",
+                    "selectedCastDefId": "castDef_TeamLeader_Employer",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
@@ -2917,23 +2565,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Looks like enemy reinforcements. Did we know there would be reinforcements?",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_SumireDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "fddf5e8b-07c6-492b-861e-2d9c2bde80ee",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "It was a possibility, Sumire. Commander, the new targets are part of the contract, so you'll need to take them down as well.",
+                    "words": "PLACEHOLDER More {TEAM_EMP.FactionDef.Demonym} forces on the field. This is the Primary Objective Version.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2943,7 +2575,23 @@
                     "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "",
+                    "cameraFocusGuid": "fddf5e8b-07c6-492b-861e-2d9c2bde80ee",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "PLACEHOLDER Our Employer has kindly added taking this group to contract. If we want to get paid we need to take them out.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "fddf5e8b-07c6-492b-861e-2d9c2bde80ee",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -3079,14 +2727,14 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Commander, I've got eyes on an inbound Leopard with {TEAM_TAR.FactionDef.Demonym} colors. Marking its LZ for you.",
+                    "words": "PLACHEHOLDER (Additional Target Forces Primary). In bound hostile Dropship detected, drop zone marked.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_SumireDefault",
+                    "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "a844b4c9-7a04-4675-af2a-95cfacf313f8",
@@ -3236,7 +2884,7 @@
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_TeamLeader_Employer",
+                    "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
@@ -3255,7 +2903,7 @@
                     "selectedCastDefId": "castDef_TeamLeader_Employer",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
+                    "cameraFocusGuid": "287b3743-7ff2-4179-8951-f48c86b8c696",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -3271,7 +2919,7 @@
                     "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "ecaf6a4d-d3b1-43bc-bb17-0711e700d44a",
+                    "cameraFocusGuid": "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -3286,23 +2934,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Commander, my superiors have sent me to provide support. My people will engage the targets alongside you. Once we've eliminated them, we'll proceed to our own evac LZ.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_TeamLeader_Employer",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "38efff2a-29a9-4886-a145-c5a7ca747fb7",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "This is Argo actual. Good to have you aboard.",
+                    "words": "Commander, I have a Marik lance on my scopes. It looks like the leader is sporting Ombra's colors.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3318,7 +2950,55 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Commander, we're under no obligation to keep these people alive, but I expect if they all come back in one piece, our employers may feel... generous.",
+                    "words": "Ombra? What are you doing here?",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_Commander",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Greetings, {COMMANDER.Callsign}. You didn't think I'd miss the action, did you? I've had enough of being stuck in that mobile HQ vehicle while my people were dying around me.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "We've got your back. Just focus on taking down that son of a bitch Gloval.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Understood Colonel Soberano, glad to have you with us.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3328,7 +3008,7 @@
                     "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "",
+                    "cameraFocusGuid": "38efff2a-29a9-4886-a145-c5a7ca747fb7",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -3369,7 +3049,7 @@
                     "selectedCastDefId": "castDef_TeamLeader_EmployersAlly",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
+                    "cameraFocusGuid": "",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -3385,7 +3065,7 @@
                     "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
+                    "cameraFocusGuid": "ecaf6a4d-d3b1-43bc-bb17-0711e700d44a",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -3426,7 +3106,7 @@
                     "selectedCastDefId": "castDef_TeamLeader_EmployersAlly",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "8fa00d6a-7f24-4efc-9c7f-3c704c77768a",
+                    "cameraFocusGuid": "8a83549d-cfe3-4409-83ee-51a80a4c0263",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -3537,7 +3217,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -3765,7 +3445,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -3946,11 +3626,10 @@
                     "EncounterObjectGuid": "38efff2a-29a9-4886-a145-c5a7ca747fb7"
                 },
                 "name": "Lance_Employer_Secondary",
-                "lanceDefId": "Tagged",
+                "lanceDefId": "Manual",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_mech_elite_arsenal",
-                        "lance_type_support_elite_arsenal"
+                        "lance_type_mech_elite_arsenal"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
@@ -3971,7 +3650,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -3980,7 +3659,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_marauderIIs_MAD-BS",
                         "unitTagSet": {
                             "items": [
 
@@ -3999,7 +3678,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_EA_SH_Ombra",
                         "pilotTagSet": {
                             "items": [
 
@@ -4023,7 +3702,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_longbows_LGB-S4",
                         "unitTagSet": {
                             "items": [
 
@@ -4042,7 +3721,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d9_Ace_2",
                         "pilotTagSet": {
                             "items": [
 
@@ -4066,7 +3745,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_atlasx_AS7-X",
                         "unitTagSet": {
                             "items": [
 
@@ -4085,7 +3764,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d9_Ace_3",
                         "pilotTagSet": {
                             "items": [
 
@@ -4109,7 +3788,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_archer_ARC-2RX1",
                         "unitTagSet": {
                             "items": [
 
@@ -4128,7 +3807,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d9_Elite_1",
                         "pilotTagSet": {
                             "items": [
 
@@ -4184,10 +3863,10 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 1,
+                "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -4196,7 +3875,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_omegas_SHP-XS",
                         "unitTagSet": {
                             "items": [
 
@@ -4371,7 +4050,7 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_battle_elite_arsenal",
+                        "lance_type_notallvehicles_elite_arsenal",
                         "elite_arsenal_ss"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
@@ -4392,7 +4071,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -4597,7 +4276,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -4802,7 +4481,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -5007,7 +4686,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -5202,15 +4881,14 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_notallvehicles_elite_arsenal"
+                        "lance_type_battle_elite_arsenal",
+                        "elite_arsenal_ss"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_turret",
-                        "lance_type_convoy",
-                        "elite_arsenal_ss"
+
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -5223,7 +4901,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -5407,15 +5085,13 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_notallvehicles_elite_arsenal"
-                    ],
+                        "lance_type_battle_elite_arsenal",
+                        "elite_arsenal_ss"                    ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_turret",
-                        "lance_type_convoy",
-                        "elite_arsenal_ss"
+
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -5428,7 +5104,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -5609,18 +5285,17 @@
                     "EncounterObjectGuid": "1df4e32a-9bdb-4be4-89c4-01f8ebeeafa0"
                 },
                 "name": "Enemy Ally Optional LanceSpawner Primary",
-                "lanceDefId": "Tagged",
+                "lanceDefId": "Manual",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_notallvehicles_elite_arsenal"
+                        "lance_type_notallvehicles_elite_arsenal",
+                        "elite_arsenal_ss"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_turret",
-                        "lance_type_convoy",
-                        "elite_arsenal_ss"
+
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -5633,7 +5308,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -5642,7 +5317,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_monster_HWR-SH-SS",
                         "unitTagSet": {
                             "items": [
 
@@ -5661,7 +5336,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_EA_SH_Gloval",
                         "pilotTagSet": {
                             "items": [
 
@@ -5685,7 +5360,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_svarogs_SH-SVG-S",
                         "unitTagSet": {
                             "items": [
 
@@ -5704,7 +5379,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d10_Ace_2",
                         "pilotTagSet": {
                             "items": [
 
@@ -5728,7 +5403,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_svarogs_SH-SVG-S",
                         "unitTagSet": {
                             "items": [
 
@@ -5747,7 +5422,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d10_Ace_3",
                         "pilotTagSet": {
                             "items": [
 
@@ -5771,7 +5446,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_crusaderx_CRD-X2",
                         "unitTagSet": {
                             "items": [
 
@@ -5790,7 +5465,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d10_Elite_1",
                         "pilotTagSet": {
                             "items": [
 
@@ -5817,15 +5492,14 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_notallvehicles_elite_arsenal"
+                        "lance_type_notallvehicles_elite_arsenal",
+                        "elite_arsenal_ss"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "lance_type_turret",
-                        "lance_type_convoy",
-                        "elite_arsenal_ss"
+
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -5838,7 +5512,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -6067,7 +5741,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -6273,7 +5947,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -6468,7 +6142,7 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_vehicle_elite_arsenal"
+                        "lance_type_mech_elite_arsenal"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
@@ -6489,7 +6163,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -6694,7 +6368,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
-                "overrideSpawnMethod": null,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
