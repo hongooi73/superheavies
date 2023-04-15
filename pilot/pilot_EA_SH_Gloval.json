@@ -81,12 +81,14 @@
 		"TraitDefCalledShotMaster",
 		"TraitDefRefireReduceOne",
 		"TraitDefRefireReduceTwo",
-		"TraitDefIndirectReduceThree"
+		"TraitDefIndirectReduceThree",
+		"TraitDefHeadshotImmunity"
     ],
     "AIPersonality": "Undefined",
     "PilotTags": {
         "items": [
-			"BLACKLISTED"
+			"BLACKLISTED",
+			"pilot_cannot_be_headshot"
         ],
         "tagSetSourceFile": ""
     },

@@ -39,7 +39,7 @@
     "PrefabIdentifier": "chrprfmech_monsterbase-001",
     "PrefabBase": "monster",
     "Tonnage": 150,
-    "InitialTonnage": 39,
+    "InitialTonnage": 35,
     "weightClass": "ASSAULT",
     "BattleValue": 10206000,
     "Heatsinks": 45,

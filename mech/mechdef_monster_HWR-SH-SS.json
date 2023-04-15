@@ -239,7 +239,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-II",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -257,7 +257,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-II",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,

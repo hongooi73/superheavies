@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "We've been informed by one of the largest news networks that a {TEAM_TAR.FactionDef.Demonym} Governor has taken issue with a recently released report on military fund spending irregularities. She's demanded a duel to fight those allegations. We'd like to hire you to represent and uphold that worthy news report, Commander.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "Commander, while Gloval appears to have a personal grudge against you, remember that you can appoint one of our MechWarriors to take your place. You don't have to be present yourself.",
+    "shortDescription": "The Manei Domini have been defeated on the battlefield, but Precentor Gloval has issued a formal challenge to {COMPANY.Name}. The duel will take place in the arena, four 'Mechs versus four.",
+    "longDescription": "Commander, while Gloval appears to have a personal grudge against you, remember that you can assign one of our MechWarriors to take your place. You don't have to be present yourself.",
     "salvagePotential": 7,
     "requirementList": [
 
@@ -143,38 +143,6 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Why do these crazies always act like they're some two-bit villains in a space opera? I still say we should have taken off and nuked the site from orbit.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_SumireDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "Conventions are important, Sumire. Gloval challenged the Commander to an honorable duel, and {COMMANDER.GenderedPronoun} accepted. If we go back on that now, we'll be instantly branded as faithless.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_DariusDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
                     "words": "Gloval and his lance are just up ahead. Good luck, Commander.",
                     "wordsColor": {
                         "r": 1,
@@ -274,6 +242,38 @@
                         "a": 1
                     },
                     "selectedCastDefId": "castDef_EA_SH_Gloval",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
+                    "cameraDistance": "Close",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Commander, I'm detecting a localized jamming field around Gloval's 'Mech. It's particularly strong around the cockpit area. It may affect your weapon targeting.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
+                    "cameraDistance": "Close",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "No headshots on Gloval. Got it. Why do they always have to make life difficult?",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_Commander",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",

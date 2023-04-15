@@ -632,7 +632,7 @@
             "objective": {
                 "EncounterObjectGuid": "7b5ce847-7978-459b-97ee-3bf90ef951fb"
             },
-            "title": "Destroy the Enemy Allied Forces",
+            "title": "Destroy Precentor Gloval's lance",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -1652,7 +1652,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "We've got them, Commander. Right out in the open.",
+                    "words": "We've got them, Commander. Right out in the open. The Manei Domini aren't normally this careless, but maybe they're just not used to losing.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1663,22 +1663,6 @@
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "These guys are amateurs. Get eyes on them, take them out.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_DariusDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "3f899376-6d15-413c-a260-a5f0aecff9bd",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -1709,7 +1693,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "I've contacted our {TEAM_EMP.FactionDef.Demonym} rep to find out why we weren't told about the extra lance. Let's debrief in orbit, Commander.",
+                    "words": "Our job here is done, Commander. Let's go home.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1784,14 +1768,14 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACEHOLDER Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.",
+                    "words": "Commander, one of Ombra's 'Mechs has been destroyed.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_TeamLeader_Employer",
+                    "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -1800,14 +1784,14 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "PLACEHOLDER Grace under fire folks. Lay it on 'em!",
+                    "words": "Don't worry about us, {COMMANDER.Callsign}. The sooner we take down these bastards, the sooner we can all get out of here.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_TeamLeader_Employer",
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -1866,7 +1850,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Colonel Soberano's lance has been destroyed.",
+                    "words": "Ombra's lance has been destroyed.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1932,7 +1916,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Damn it. It's Gloval!",
+                    "words": "I knew something was wrong. It's Gloval!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1980,18 +1964,34 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Oh boy.",
+                    "words": "Commander, I'm detecting a localized jamming field around Gloval's 'Mech. It's particularly strong around the cockpit area. It may affect your weapon targeting.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_SumireDefault",
+                    "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
+                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraDistance": "Close",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "No headshots on Gloval. Got it. Why do they always have to make life difficult?",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_Commander",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraDistance": "Close",
                     "cameraHeight": "Default",
                     "revealRadius": -1
                 }
@@ -2194,30 +2194,14 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACEHOLDER All our objectives are complete, cover our withdraw Commander.",
+                    "words": "The AO is clear. No more hostiles on sensors.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_TeamLeader_Employer",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -2235,14 +2219,14 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACEHOLDER Thanks for the assist, we're clear.",
+                    "words": "We're clear. I'll see you back at base, {COMMANDER.Callsign}.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_TeamLeader_Employer",
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "287b3743-7ff2-4179-8951-f48c86b8c696",
@@ -2260,14 +2244,14 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "PLACEHOLDER Thanks for the assist, we're clear.",
+                    "words": "We're clear. I'll see you back at base, {COMMANDER.Callsign}.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_TeamLeader_Employer",
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
@@ -2934,14 +2918,14 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Commander, I have a Marik lance on my scopes. It looks like the leader is sporting Ombra's colors.",
+                    "words": "Boss, I have a Marik lance on my scopes. It looks like Ombra's come to join the party.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_SumireDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "38efff2a-29a9-4886-a145-c5a7ca747fb7",
@@ -2966,7 +2950,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "You didn't think I'd miss the action, did you? I've had enough of being stuck in that mobile HQ vehicle while my people were dying around me.",
+                    "words": "Howdy, {COMMANDER.Callsign}. Darius mentioned to me that something felt wrong about this encounter, so we've come to back you up. Besides, I've had enough of being stuck in that mobile HQ vehicle.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2982,7 +2966,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Understood Colonel Soberano, glad to have you with us.",
+                    "words": "Glad to have you with us, Colonel Soberano. Hopefully I was worried about nothing.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3772,7 +3756,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_warhammer_WHM-7AX",
+                        "unitDefId": "mechdef_highlander_HGN-732bX",
                         "unitTagSet": {
                             "items": [
 
@@ -3829,13 +3813,14 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_battle_elite_arsenal",
+                        "lance_type_notallvehicles_elite_arsenal",
                         "elite_arsenal_ss"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
+                        "lance_type_mech_elite_arsenal",
                         "lance_type_turret",
                         "lance_type_convoy"
                     ],
