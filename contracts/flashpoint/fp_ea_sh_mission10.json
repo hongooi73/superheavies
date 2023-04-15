@@ -12,7 +12,7 @@
     "badFaithStatementOverride": "",
     "goodFaithStatementOverride": "",
     "shortDescription": "Commander, we've detected a Blakist assault demi-lance close to your position. Our units are dispersed as part of mopping up the remnants of Precentor Gloval's operational strike group, and there is nothing in the vicinity that is capable of taking on that demi-lance. Please move in and eliminate it.",
-    "longDescription": "I have a bad feeling about this, Commander. We still haven't located Gloval. Bring a strong force.",
+    "longDescription": "I'm worried that we still haven't located Gloval, Commander. This encounter may be more than it seems.",
     "salvagePotential": 15,
     "requirementList": [
 
@@ -1932,7 +1932,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "I knew it. It's Gloval!",
+                    "words": "Damn it. It's Gloval!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1948,7 +1948,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Face me, Commander {COMMANDER.LastName}! Come to your doom!",
+                    "words": "Come to me, mercenary scum! Come to your doom!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2966,23 +2966,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Greetings, {COMMANDER.Callsign}. You didn't think I'd miss the action, did you? I've had enough of being stuck in that mobile HQ vehicle while my people were dying around me.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_EA_SH_Ombra",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "We've got your back. Just focus on taking down that son of a bitch Gloval.",
+                    "words": "You didn't think I'd miss the action, did you? I've had enough of being stuck in that mobile HQ vehicle while my people were dying around me.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -3788,7 +3772,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_archer_ARC-2RX1",
+                        "unitDefId": "mechdef_warhammer_WHM-7AX",
                         "unitTagSet": {
                             "items": [
 
