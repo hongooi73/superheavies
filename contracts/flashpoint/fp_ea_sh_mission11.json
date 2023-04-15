@@ -12,7 +12,7 @@
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
     "shortDescription": "We've been informed by one of the largest news networks that a {TEAM_TAR.FactionDef.Demonym} Governor has taken issue with a recently released report on military fund spending irregularities. She's demanded a duel to fight those allegations. We'd like to hire you to represent and uphold that worthy news report, Commander.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "I just don't know, Commander. When people say they want to 'fight' allegations it's not meant to be a real fight. This {TEAM_TAR.FactionDef.Demonym} Governor is crazy. Let's uphold the truth... for a price.",
+    "longDescription": "Commander, while Gloval appears to have a personal grudge against you, remember that you can appoint one of our MechWarriors to take your place. You don't have to be present yourself.",
     "salvagePotential": 7,
     "requirementList": [
 
@@ -24,7 +24,7 @@
 
     ],
     "encounterPlayStyle": "SinglePlayer",
-    "maxNumberOfPlayerUnits": 2,
+    "maxNumberOfPlayerUnits": 4,
     "lanceMinTonnage": -1,
     "lanceMaxTonnage": 400,
     "mechMinTonnages": [
@@ -46,7 +46,7 @@
             "contractObjective": {
                 "EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
             },
-            "title": "Defend the Truth",
+            "title": "Defeat Precentor Gloval and the Manei Domini",
             "description": "",
             "isPrimary": true,
             "forPlayer": "Player1",
@@ -60,7 +60,7 @@
             "objective": {
                 "EncounterObjectGuid": "a0b9c5b2-c594-4c5a-be1d-028a51c51519"
             },
-            "title": "Defeat the duelists",
+            "title": "Defeat Precentor Gloval and the Manei Domini",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -143,7 +143,23 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "The duelists are out there on the other side of the arena. Good luck, Commander.",
+                    "words": "Why do these crazies always act like they're some two-bit villains in a space opera? I still say we should have taken off and nuked the site from orbit.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_SumireDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Conventions are important, Sumire. Gloval challenged the Commander to an honorable duel, and {COMMANDER.GenderedPronoun} accepted. If we go back on that now, we'll be instantly branded as faithless.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -151,6 +167,38 @@
                         "a": 1
                     },
                     "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Gloval and his lance are just up ahead. Good luck, Commander.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Kick his ass for all of us, {COMMANDER.Callsign}!",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -168,7 +216,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "There we go. Issue settled. Back to the dropship, Commander.",
+                    "words": "There we go. Issue settled.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -193,7 +241,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "This isn't how things should be. You shouldn't be able to repress the truth like this.",
+                    "words": "It wasn't supposed to end this way!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -218,14 +266,14 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "You will retract that report. Right. Now.",
+                    "words": "Face me, mercenary scum!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_Contract_TagTeam_OpFor",
+                    "selectedCastDefId": "castDef_EA_SH_Gloval",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79",
@@ -375,6 +423,92 @@
                         "selectedUnitType": "UNDEFINED",
                         "selectedUnitDefId": null,
                         "selectedPilotDefId": null
+                    },
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "c54d7983-aeb5-4aef-9366-f2c5168cf671"
+                        },
+                        "customUnitName": null,
+                        "customHeraldryDefId": null,
+                        "unitType": "Mech",
+                        "unitDefId": "mechDef_None",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
+                    },
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "ca94aea2-f63e-4a0e-90a1-fcbd94ab8002"
+                        },
+                        "customUnitName": null,
+                        "customHeraldryDefId": null,
+                        "unitType": "Mech",
+                        "unitDefId": "mechDef_None",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
                     }
                 ]
             }
@@ -418,12 +552,10 @@
                     "EncounterObjectGuid": "f426f0dc-969d-477d-81a9-d02f9e1eff79"
                 },
                 "name": "Lance_Enemy",
-                "lanceDefId": "Tagged",
+                "lanceDefId": "Manual",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_assault_elite_arsenal",
-                        "lance_type_mech_elite_arsenal",
-                        "elite_arsenal_ss"
+
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -439,7 +571,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 2,
+                "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": "",
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
@@ -450,7 +582,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_monster_HWR-SH-SS",
                         "unitTagSet": {
                             "items": [
 
@@ -469,7 +601,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_EA_SH_Gloval",
                         "pilotTagSet": {
                             "items": [
 
@@ -493,7 +625,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_svarogs_SH-SVG-S",
                         "unitTagSet": {
                             "items": [
 
@@ -512,7 +644,93 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d10_Ace_2",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": "",
+                        "selectedPilotDefId": ""
+                    },
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "a72a9eec-1e1d-4d57-8abd-4748863763dd"
+                        },
+                        "customUnitName": null,
+                        "customHeraldryDefId": "",
+                        "unitType": "Mech",
+                        "unitDefId": "mechdef_svarogs_SH-SVG-S",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilot_d10_Ace_3",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": "",
+                        "selectedPilotDefId": ""
+                    },
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "68159bf4-8891-4516-b188-f48b2ddf6801"
+                        },
+                        "customUnitName": null,
+                        "customHeraldryDefId": "",
+                        "unitType": "Mech",
+                        "unitDefId": "mechdef_crusaderx_CRD-X2",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilot_d10_Elite_1",
                         "pilotTagSet": {
                             "items": [
 
@@ -534,9 +752,7 @@
         ]
     },
     "targetsAllyTeam": {
-        "encounterLayerData": {
-            "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
-        },
+        "encounterLayerData": null,
         "teamGuid": "31151ed6-cfc2-467e-98c4-9ae5bea784cf",
         "teamName": "Target's Ally",
         "faction": "INVALID_UNSET",
@@ -546,9 +762,7 @@
         ]
     },
     "neutralToAllTeam": {
-        "encounterLayerData": {
-            "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
-        },
+        "encounterLayerData": null,
         "teamGuid": "61612bb3-abf9-4586-952a-0559fa9dcd75",
         "teamName": "Neutral to All",
         "faction": "INVALID_UNSET",
@@ -558,9 +772,7 @@
         ]
     },
     "hostileToAllTeam": {
-        "encounterLayerData": {
-            "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
-        },
+        "encounterLayerData": null,
         "teamGuid": "3c9f3a20-ab03-4bcb-8ab6-b1ef0442bbf0",
         "teamName": "Hostile to All",
         "faction": "INVALID_UNSET",
@@ -579,6 +791,7 @@
 
         ]
     },
-    "contractTypeID": "DuoDuel"
+    "contractType": "INVALID_UNSET",
+    "contractTypeID": "QuadDuel"
 }
 
