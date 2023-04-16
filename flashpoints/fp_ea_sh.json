@@ -31,7 +31,7 @@
         "RequirementTags" : {
             "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
-                "planet_name_flannagansnebulea"
+                "planet_name_thurrock"
             ]
         },
         "ExclusionTags" : {
@@ -53,7 +53,7 @@
     "UseInProgressTimeoutOverride" : true,
     "InProgressTimeout" : 30,
     "RewardCollectionID" : "itemCollection_fp_ea_sh",
-    "UnitDropTonnageHint" : "None",
+    "UnitDropTonnageHint" : "Light",
     "LanceDropTonnageHint" : "None",
     "FlashpointShortDescription" : "Commander, the Word of Blake has launched an all-out invasion of the Thurrock system. {COMPANY.CompanyName} is one of the top mercenary units in the Periphery, and your aid in driving back the invaders is urgently requested.",
     "FlashpointDescriberCastDefId" : "castDef_MarikRepDefault",
