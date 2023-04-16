@@ -12,7 +12,7 @@
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
     "shortDescription": "Commander, there's a heavy convoy on its way to join the Blakist forces gathering to attack Colonel Soberano. This is an opportunity to destroy the enemy piecemeal, before they can concentrate their forces against our defenders. Your mission is to reduce that convoy and any escorting units to scrap.",
-    "longDescription": "This is exactly why we're conducting this raid. We just need to be sure we can actually destroy that convoy",
+    "longDescription": "Opportunities like this are exactly why we're conducting this raid. We just need to be sure we can actually destroy that convoy",
     "salvagePotential": 23,
     "requirementList": [
 
@@ -904,7 +904,7 @@
                         "lance_type_vehicle_elite_arsenal",
                         "elite_arsenal_ss"
                     ],
-                    "tagSetSourceFile": "tags/LanceTags"
+                    "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [

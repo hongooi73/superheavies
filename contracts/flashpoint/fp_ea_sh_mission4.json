@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Well done on securing the spaceport, Commander. The next phase of the operation is to make contact with the Thurrock garrison, which is holed up in the hills outside Akhand Bharat city. Scouts have detected two Blakist assault demi-lances, reinforced with superheavy 'Mechs, blocking the road ahead. Your mission is to defeat them to clear the way for the advance to proceed.",
-    "longDescription": "Two assault demi-lances with superheavies? This is going to be tough.",
+    "shortDescription": "Well done on securing the spaceport, Commander. The next phase of the operation is to make contact with the Thurrock garrison, which is holed up in the hills outside Akhand Bharat city. We've detected two heavy Blakist demi-lances, reinforced with superheavy 'Mechs, blocking the road ahead. Your mission is to clear the way for the advance.",
+    "longDescription": "Two demi-lances with superheavies? This is going to be tough.",
     "salvagePotential": 19,
     "requirementList": [
 
@@ -587,7 +587,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 0,
+                "lanceDifficultyAdjustment": -2,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
@@ -598,7 +598,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_omegas_SHP-XS",
                         "unitTagSet": {
                             "items": [
 
@@ -641,7 +641,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_omegas_SHP-XS",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [
 
@@ -792,7 +792,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 0,
+                "lanceDifficultyAdjustment": -2,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
@@ -803,7 +803,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_longbowIIs_SH-LGB-S",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [
 
@@ -846,7 +846,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_longbowIIs_SH-LGB-S",
                         "unitTagSet": {
                             "items": [
 

@@ -1666,22 +1666,6 @@
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
-                },
-                {
-                    "words": "Good hunting, Commander. Oliveira out.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_DariusDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
                 }
             ]
         },
@@ -1693,7 +1677,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Our job here is done, Commander. Let's go home.",
+                    "words": "Rest in pieces, Precentor Gloval. Let's go home, Commander.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1718,7 +1702,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "I've contacted our {TEAM_EMP.FactionDef.Demonym} rep to find out why we weren't told about the extra lance. Let's debrief in orbit, Commander.",
+                    "words": "It wasn't supposed to end this way!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1784,7 +1768,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Don't worry about us, {COMMANDER.Callsign}. The sooner we take down these bastards, the sooner we can all get out of here.",
+                    "words": "Don't worry about us, {COMMANDER.Callsign}. The sooner you take down these bastards, the sooner we can all get out of here.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1958,7 +1942,7 @@
                     "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraFocusGuid": "",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -1974,7 +1958,7 @@
                     "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraFocusGuid": "",
                     "cameraDistance": "Close",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -1990,7 +1974,7 @@
                     "selectedCastDefId": "castDef_Commander",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraFocusGuid": "",
                     "cameraDistance": "Close",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -2944,13 +2928,13 @@
                     "selectedCastDefId": "castDef_Commander",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraFocusGuid": "38efff2a-29a9-4886-a145-c5a7ca747fb7",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
                 },
                 {
-                    "words": "Howdy, {COMMANDER.Callsign}. Darius mentioned to me that something felt wrong about this encounter, so we've come to back you up. Besides, I've had enough of being stuck in that mobile HQ vehicle.",
+                    "words": "Howdy, {COMMANDER.Callsign}. Darius mentioned to me that something felt wrong about this encounter, so we've come to back you up. I haven't forgotten what I said to you in our last conversation \u2014 we fight together.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2960,7 +2944,7 @@
                     "selectedCastDefId": "castDef_EA_SH_Ombra",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "a251ed88-0ea5-4d3a-a70c-f05604c81352",
+                    "cameraFocusGuid": "38efff2a-29a9-4886-a145-c5a7ca747fb7",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1

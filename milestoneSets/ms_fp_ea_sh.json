@@ -1071,7 +1071,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c5eec6a933a2c54c2d51736",
+                            "value" : "9c490772a4b6dcec224a874a",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name}",
@@ -1113,7 +1113,7 @@
                         "RequirementTags" : {
                             "tagSetSourceFile" : "",
                             "items" : [
-                                "fp_choice_c"
+                                "fp_choice_f"
                             ]
                         },
                         "ExclusionTags" : {
@@ -1150,7 +1150,7 @@
                         "RequirementTags" : {
                             "tagSetSourceFile" : "",
                             "items" : [
-                                "fp_choice_d"
+                                "fp_choice_e"
                             ]
                         },
                         "ExclusionTags" : {

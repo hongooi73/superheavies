@@ -4180,7 +4180,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_omegas_SHP-XS",
+                        "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
 
@@ -4385,7 +4385,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_InheritLance",
+                        "unitDefId": "mechdef_omegas_SHP-XS",
                         "unitTagSet": {
                             "items": [
 

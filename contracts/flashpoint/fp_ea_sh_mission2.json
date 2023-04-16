@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "We had prior intelligence of a Word of Blake assault demi-lance in reserve. Our scouts have now reported that it's moving to recapture the spaceport. You'll have to intercept and destroy it if the landing is to go ahead.",
-    "longDescription": "Commander, the scouts also reported a very large 'Mech among the Blakists. My guess is that it's a superheavy.",
+    "shortDescription": "Commander, we had prior intelligence of a Word of Blake assault demi-lance in reserve. Our scouts have now reported that it's moving to recapture the spaceport; unless you intercept and destroy it, the landing cannot proceed. Be warned that the scouts also reported that the demi-lance includes an extremely large 'Mech.",
+    "longDescription": "My guess is that the Blakists have a superheavy 'Mech. We'll need to bring enough firepower to take it down.",
     "salvagePotential": 15,
     "requirementList": [
 

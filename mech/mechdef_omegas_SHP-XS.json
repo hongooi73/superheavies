@@ -122,102 +122,6 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_RotaryAutocannon_RAC5_2",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_2",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_SilverBulletSpecial_2",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_RotaryAutocannon_RAC5_2",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_2",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_SilverBulletSpecial_2",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "hasPrefabName": false,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_C3i_Computer_2",
             "ComponentDefType": "Upgrade",
@@ -228,6 +132,118 @@
         },
         {
             "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Autocannon_UAC10_2-Federated",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_SilverBulletSpecial_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Autocannon_UAC10_2-Federated",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_SilverBulletSpecial_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_Guardian_ECM_CLAN_2",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": 0,
@@ -236,7 +252,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightArm",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN_3",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": 0,
@@ -246,7 +262,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -255,7 +271,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -264,7 +280,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -273,7 +289,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,

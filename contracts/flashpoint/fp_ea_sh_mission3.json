@@ -433,7 +433,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Don't worry, we're here. Commander, I'm picking up a Blakist demi-lance closing in rapidly.",
+                    "words": "Don't worry, we're here. Commander, I'm picking up a Blakist demi-lance closing in rapidly. There's a second one further out.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -475,7 +475,7 @@
                     "selectedCastDefId": "castDef_Commander",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "4d39e72c-4f99-4cc6-8fe0-d4d18cad0063",
+                    "cameraFocusGuid": "",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -511,34 +511,9 @@
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
-                }
-            ]
-        },
-        {
-            "dialogue": {
-                "EncounterObjectGuid": "4011a4c3-cba2-4d22-b2b3-3b19a3297ab9"
-            },
-            "name": "Dialog_MissionSuccess",
-            "overrideDialogueBucketId": "",
-            "dialogueContent": [
-                {
-                    "words": "Excellent work, Commander; the Word of Blake won't be burning anything today.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_DariusDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
                 },
                 {
-                    "words": "I've heard from my colleagues at other sites that they've been targeted as well. These sites don't contain anything of military value or religious significance. They're just civilian \u2014 federal \u2014 data centers.",
+                    "words": "I've heard from my colleagues at other sites that they've been targeted as well. These sites don't contain anything of military value or religious significance. They're just civilian data centers.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -568,16 +543,25 @@
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
-                },
+                }
+            ]
+        },
+        {
+            "dialogue": {
+                "EncounterObjectGuid": "4011a4c3-cba2-4d22-b2b3-3b19a3297ab9"
+            },
+            "name": "Dialog_MissionSuccess",
+            "overrideDialogueBucketId": "",
+            "dialogueContent": [
                 {
-                    "words": "Thank <i>you</i> for saving us, Commander. And good luck kicking the Blakists off this planet!",
+                    "words": "Excellent work, Commander; the Word of Blake won't be burning anything today.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_EA_SH_MarikArchivist",
+                    "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -867,7 +851,7 @@
                     "EncounterObjectGuid": "dafd0d98-c88a-4f90-b137-4fe5ed94ebbb"
                 },
                 "name": "Spawner_PlayerLance",
-                "lanceDefId": "",
+                "lanceDefId": "Manual",
                 "lanceTagSet": {
                     "items": [
 
