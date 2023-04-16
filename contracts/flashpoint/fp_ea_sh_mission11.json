@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "The Manei Domini have been defeated on the battlefield, but Precentor Gloval has issued a formal challenge to {COMPANY.Name}. The duel will take place in the arena, four 'Mechs versus four.",
+    "shortDescription": "The Manei Domini have been defeated on the battlefield, but Precentor Gloval has issued a formal challenge to {COMPANY.CompanyName}. The duel will take place in the arena, four 'Mechs versus four.",
     "longDescription": "Commander, while Gloval appears to have a personal grudge against you, remember that you can assign one of our MechWarriors to take your place. You don't have to be present yourself.",
     "salvagePotential": 7,
     "requirementList": [

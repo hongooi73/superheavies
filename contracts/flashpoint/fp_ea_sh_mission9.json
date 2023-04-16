@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Commander, we need an immediate deployment. Several Word of Blake demi-lances have penetrated our frontline and are approaching our main base, containing our headquarters and logistics facilities. We need your 'Mechs to intercept them before they can destroy the base. Additional forces are on the way, but you'll have to fight the initial battle on your own.",
+    "shortDescription": "Commander, we need an immediate deployment. Several Word of Blake 'Mechs have penetrated our frontline and are approaching our main base, containing our headquarters and logistics facilities. We need you to intercept them before they can destroy the base. Additional forces are on the way, but you'll have to fight the initial battle on your own.",
     "longDescription": "We just have to hold them off long enough for support to arrive. Put that way, it almost sounds easy.",
     "salvagePotential": 27,
     "requirementList": [
@@ -417,23 +417,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "This isn't the first assault on this facility, Commander. Expect significant enemy forces.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_DariusDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "We're picking up 'Mech engine signatures nearby, so expect contact shortly.",
+                    "words": "We're picking up 'Mech engine signatures nearby, Commander. Expect contact shortly.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -474,7 +458,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Excellent work, Commander. Our employer's research can continue as planned.",
+                    "words": "Excellent work, Commander. The base has survived.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -624,7 +608,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Commander, if we lose another building we lose the whole lab. You have to hold on.",
+                    "words": "Commander, if we lose another building we lose the whole base. You have to hold on.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -649,7 +633,7 @@
             "overrideDialogueBucketId": "DialogBucketDef_DefendBase_AllyReinforcements",
             "dialogueContent": [
                 {
-                    "words": "Mercenary Commander, we've received word of the assault on your position. Reinforcements are incoming, they are about halfway there. Maintain position and you will be relieved and reinforced shortly. ",
+                    "words": "Commander {COMMANDER.Callsign}, reinforcements are incoming, they are about halfway there. Maintain position and you will be relieved and reinforced shortly. ",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1159,7 +1143,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 0,
+                "lanceDifficultyAdjustment": -2,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
@@ -1170,7 +1154,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_omegas_SHP-XS",
                         "unitTagSet": {
                             "items": [
 
