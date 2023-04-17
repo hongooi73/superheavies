@@ -19,6 +19,7 @@
         { "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
         { "Type": "Texture2D", "Path": "castSprites", "AddToAddendum": "ConversationTexture" },
         { "Type": "ItemCollectionDef", "Path": "itemcol" },
-        { "Type": "PilotDef", "Path": "pilot" }
+        { "Type": "PilotDef", "Path": "pilot" },
+        { "Type": "BaseDescriptionDef", "Path": "lore" }
     ]
 }
