@@ -21,7 +21,9 @@
             },
             "ExclusionTags" : {
                 "tagSetSourceFile" : "",
-                "items" : []
+                "items" : [
+                    "flashpoint_ea_sh_complete"
+                ]
             },
             "RequirementComparisons" : []
         }
@@ -46,7 +48,7 @@
     "TargetFaction" : "WordOfBlake",
     "AllowRefitTime" : false,
     "FlashpointLength" : "LONG",
-    "Repeatable" : true,
+    "Repeatable" : false,
     "MilestoneSetID" : "ms_fp_ea_sh",
     "UseAvailableTimeoutOverride" : true,
     "AvailableTimeout" : 180,
