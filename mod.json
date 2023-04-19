@@ -5,7 +5,8 @@
     "Version": "1.0.0",
     "Author": "hongooi2",
     "DependsOn": [
-        "Expanded Arsenal"
+        "Expanded Arsenal",
+        "Elite Arsenal"
     ],
     "Manifest": [
         { "Type": "UpgradeDef", "Path": "internals" },
