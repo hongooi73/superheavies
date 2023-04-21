@@ -31,7 +31,7 @@
         "Id": "chassisdef_monster_HWR-SH-SS",
         "Name": "Monster",
         "Details": "The personal superheavy 'Mech of Precentor Vladimir Gloval, of the Manei Domini. Based on a heavily modified S-tier Omega chassis, the Monster featured unrivalled firepower and protection, along with surprising mobility for its 150-ton weight. It was lost in battle along with the rest of Gloval's operational strike group on the world of Thurrock.",
-        "Icon": "uixTxrIcon_superheavy"
+        "Icon": "uixTxrIcon_monster"
     },
     "MovementCapDefID": "movedef_annihilator_ANH-1A",
     "PathingCapDefID": "pathingdef_assault",
