@@ -78,10 +78,6 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
@@ -117,6 +113,10 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -157,10 +157,6 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
