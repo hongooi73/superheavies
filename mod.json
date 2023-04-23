@@ -9,7 +9,6 @@
         "Elite Arsenal"
     ],
     "Manifest": [
-        { "Type": "UpgradeDef", "Path": "internals" },
         { "Type": "ChassisDef", "Path": "chassis" },
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "ContractOverride", "Path": "contracts" },
