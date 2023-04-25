@@ -1,6 +1,6 @@
 {
-    "ID": "SoloDuel_ExtremeCloseup_SH_elite",
-    "contractName": "Extreme Close-Up (+)",
+    "ID": "QuadDuel_ExtremeCloseup_SH",
+    "contractName": "Extreme Close-Up",
     "contractDisplayStyle": "BaseCampaignNormal",
     "difficulty": 8,
     "difficultyUIModifier": 0,
@@ -11,9 +11,9 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Commander, your exploits have come to our attention. We're conducting research on how to fight superheavy 'Mechs and we need data on the most effective fighting styles. Sound interesting? Good, because you're just the kind of pilot we've been looking for. We've arranged for an ex-{TEAM_TAR.FactionDef.Demonym} pilot to duel you for a data gathering exercise. What do you say? You'll be well rewarded.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "I'm not sure how useful this duel will be, Commander. You're not supposed to fight superheavy 'Mechs one-on-one. Still, this is just an exercise so no-one's getting killed... I think.",
-    "salvagePotential": 6,
+    "shortDescription": "Commander, your exploits have come to our attention. We're conducting research on how light and medium 'Mechs can best counter a superheavy 'Mech, and we need data. Sound interesting? Good, because we believe you can help us. We've arranged for an ex-{TEAM_TAR.FactionDef.Demonym} MechWarrior to duel a lance of yours. What do you say? You'll be well rewarded.",
+    "longDescription": "Four-to-one odds would be normally be great, but this is a superheavy we'll be fighting. Still, it's just an exercise so nobody is getting killed... I think.",
+    "salvagePotential": 4,
     "requirementList": [
         {
             "Scope": "StarSystem",
@@ -46,9 +46,9 @@
 
     ],
     "encounterPlayStyle": "SinglePlayer",
-    "maxNumberOfPlayerUnits": 1,
+    "maxNumberOfPlayerUnits": 4,
     "lanceMinTonnage": -1,
-    "lanceMaxTonnage": 400,
+    "lanceMaxTonnage": 200,
     "mechMinTonnages": [
         -1,
         -1,
@@ -56,10 +56,10 @@
         -1
     ],
     "mechMaxTonnages": [
-        -1,
-        -1,
-        -1,
-        -1
+        35,
+        35,
+        55,
+        55
     ],
     "mapMood": null,
     "startingFogOfWarVisibility": "Surveyed",
@@ -68,7 +68,7 @@
             "contractObjective": {
                 "EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
             },
-            "title": "Overcome the test subject",
+            "title": "Defeat the superheavy test pilot",
             "description": "",
             "isPrimary": true,
             "forPlayer": "Player1",
@@ -82,43 +82,11 @@
             "objective": {
                 "EncounterObjectGuid": "a0b9c5b2-c594-4c5a-be1d-028a51c51519"
             },
-            "title": "Overcome the test subject",
+            "title": "Defeat the superheavy test pilot",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
-                {
-                    "Scope": "Company",
-                    "Requirements": null,
-                    "AddedTags": {
-                        "items": [
 
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "RemovedTags": {
-                        "items": [
-
-                        ],
-                        "tagSetSourceFile": ""
-                    },
-                    "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.50",
-                            "set": false,
-                            "valueConstant": null
-                        }
-                    ],
-                    "Actions": [
-
-                    ],
-                    "ForceEvents": [
-
-                    ],
-                    "TemporaryResult": false,
-                    "ResultDuration": 0
-                }
             ],
             "OnFailureResults": [
 
@@ -352,6 +320,135 @@
                         "selectedUnitType": "UNDEFINED",
                         "selectedUnitDefId": null,
                         "selectedPilotDefId": null
+                    },
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "5df48a48-1840-49b0-84e9-126847053afa"
+                        },
+                        "customUnitName": null,
+                        "customHeraldryDefId": null,
+                        "unitType": "Mech",
+                        "unitDefId": "mechDef_None",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
+                    },
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "c54d7983-aeb5-4aef-9366-f2c5168cf671"
+                        },
+                        "customUnitName": null,
+                        "customHeraldryDefId": null,
+                        "unitType": "Mech",
+                        "unitDefId": "mechDef_None",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
+                    },
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "ca94aea2-f63e-4a0e-90a1-fcbd94ab8002"
+                        },
+                        "customUnitName": null,
+                        "customHeraldryDefId": null,
+                        "unitType": "Mech",
+                        "unitDefId": "mechDef_None",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
                     }
                 ]
             }
@@ -398,10 +495,10 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_assault_s_tier",
+                        "lance_type_assault",
                         "lance_type_mech"
                     ],
-                    "tagSetSourceFile": "tags/LanceTags"
+                    "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
@@ -429,7 +526,7 @@
                         "unitDefId": "Tagged",
                         "unitTagSet": {
                             "items": [
-                                "unit_superheavy_s_tier"
+                                "unit_superheavy"
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -512,6 +609,7 @@
 
         ]
     },
-    "contractTypeID": "SoloDuel"
+    "contractType": "INVALID_UNSET",
+    "contractTypeID": "QuadDuel"
 }
 
