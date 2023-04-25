@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Commander, your exploits have come to our attention. We're conducting research on how light and medium 'Mechs can best counter a superheavy 'Mech, and we need data. Sound interesting? Good, because we believe you can help us. We've arranged for an ex-{TEAM_TAR.FactionDef.Demonym} MechWarrior to duel a lance of yours. What do you say? You'll be well rewarded.",
+    "shortDescription": "Commander, your exploits have come to our attention. The recent appearance of {TEAM_TAR.FactionDef.Demonym} superheavy 'Mechs on the battlefield means we need to develop tactics and doctrine on how to fight them. We're willing to hire a lance of your light and medium 'Mechs to duel a superheavy, for research purposes. What do you say? You'll be well rewarded.",
     "longDescription": "Four-to-one odds would be normally be great, but this is a superheavy we'll be fighting. Still, it's just an exercise so nobody is getting killed... I think.",
     "salvagePotential": 4,
     "requirementList": [
@@ -48,7 +48,7 @@
     "encounterPlayStyle": "SinglePlayer",
     "maxNumberOfPlayerUnits": 4,
     "lanceMinTonnage": -1,
-    "lanceMaxTonnage": 200,
+    "lanceMaxTonnage": 400,
     "mechMinTonnages": [
         -1,
         -1,

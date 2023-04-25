@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "One of our covert facilities was breached, Commander, in what appears to have been an inside job. A MechWarrior stationed there murdered the rest of the staff and is defecting to {TEAM_TAR.FactionDef.Name}, taking an extremely powerful superheavy 'Mech with her. The facility is a total loss, but we don't want that 'Mech falling into enemy hands. Track down the renegade and destroy her 'Mech. We believe she's being escorted by {TEAM_TAR.FactionDef.Demonym} forces, and there's a bonus if you destroy them as well.",
+    "shortDescription": "Commander, one of our MechWarriors at a nearby military base has turned traitor and is defecting to {TEAM_TAR.FactionDef.Name}. Our forces are unable to stop her, as she managed to commandeer an extremely powerful superheavy BattleMech that was being maintained at the time. That superheavy cannot be allowed to fall into enemy hands. Your mission is to track down the renegade and destroy her 'Mech at all costs. We believe she's made contact with {TEAM_TAR.FactionDef.Demonym} forces, and there's a bonus if you destroy them as well.",
     "longDescription": "They had a <i>superheavy BattleMech<\/i>, and they let somebody steal it. I'd be embarrassed for them if it wasn't our asses on the line cleaning their mess up.",
     "salvagePotential": 20,
     "requirementList": [
