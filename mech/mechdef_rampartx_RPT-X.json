@@ -20,7 +20,7 @@
         "UIName": "Rampart X",
         "Id": "mechdef_rampartx_RPT-X",
         "Name": "Rampart X",
-        "Details": "The Rampart is Clan Diamond Shark's first attempt to create a superheavy BattleMech. Its design is focused on long-ranged fire support, with paired HAG/30s and ER PPCs providing heavy direct fire and ATM launchers for secondary indirect fire. A C3i computer improves tactical awareness, mitigating the ponderous lack of maneuverability of the superheavy chassis, while an advanced ECM suite jams enemy targeting systems. Its main weakness is a complete lack of short-range and antipersonnel weaponry, making it dependent on lancemates to keep it from being swarmed.",
+        "Details": "The Rampart is Clan Diamond Shark's first attempt to create a superheavy BattleMech. Its design is focused on long-ranged fire support, with paired HAG/30s and ER PPCs providing heavy direct fire and ATM launchers for secondary indirect fire. An active probe improves tactical awareness, while an advanced ECM suite jams enemy targeting systems. Its main weakness is a complete lack of short-range and antipersonnel weaponry, making it dependent on lancemates to keep it from being swarmed.",
         "Icon": "uixTxrIcon_superheavy"
     },
     "simGameMechPartCost": 714821,
@@ -193,7 +193,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_Half",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "hasPrefabName": false,
@@ -201,7 +201,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_Half",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "hasPrefabName": false,
@@ -254,7 +254,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_C3i_Computer_1",
+            "ComponentDefID": "Gear_AP_CLAN_1",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
