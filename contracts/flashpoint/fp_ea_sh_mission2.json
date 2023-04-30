@@ -46,7 +46,7 @@
             "contractObjective": {
                 "EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
             },
-            "title": "Destroy the Invading Lance",
+            "title": "Destroy the Enemy Lance",
             "description": "Interdict the enemy demi-lance before it can reach the spaceport.",
             "isPrimary": true,
             "forPlayer": "Player1",
