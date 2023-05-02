@@ -5,7 +5,7 @@
         "Details" : "Elite Arsenal flashpoint",
         "Icon" : null
     },
-    "Weight" : 500,
+    "Weight" : 100,
     "InternalName" : "ea_sh",
     "PublishState" : "PUBLISHED",
     "Difficulty" : 10,
