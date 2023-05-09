@@ -2,7 +2,7 @@
     "Name": "superheavies",
     "Enabled": true,
     "Description": "Superheavy battlemechs",	
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Author": "hongooi2",
     "DependsOn": [
         "Expanded Arsenal",
