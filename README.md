@@ -25,6 +25,7 @@ Superheavies have huge amounts of free tonnage, which allows them to mount even 
 - \-5 recoil when firing ballistic weapons. The massive bulk of a superheavy makes it a stable firing platform.
 - \-30% stability damage taken.
 - \-50% crit chance when taking internal damage. The bulk of a superheavy also makes it robust against taking damage to its components.
+- Twice the total hit points in the head compared to a normal mech: 41 points of internal structure, and 80 points of armor. You can still try for a headshot kill, but it'll take twice as long on average.
 
 Superheavies have the following disadvantages:
 
@@ -34,7 +35,7 @@ Superheavies have the following disadvantages:
 - _Unable_ to make use of jump jets, MASC or engine upgrades. The size and weight of a superheavy exceeds the limits of these technologies.
 - _Unable_ to fit gyros of any kind.
 
-A superheavy has twice the total hit points in its head compared to a normal mech: 41 points of internal structure, and 80 points of armor. You can still try for a headshot kill, but it'll take twice as long on average.
+In addition, there is a hard 400-ton limit on how much weight you can drop in any given mission. The Leopard can only carry so much.
 
 ## Prerequisites
 
